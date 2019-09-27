@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a98b4a63-ef82-485c-a667-7c352fe12457" name="Default Changelist" comment="" />
+    <list default="true" id="a98b4a63-ef82-485c-a667-7c352fe12457" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Locators.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BaseUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/MediaTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RegistrationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SearchTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MainPage.java" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +27,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -26,14 +36,17 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectId" id="1QqM04Gtu98zPIPi9BsmbzLKEZn" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -47,35 +60,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.MainPage.testSearchGift">
-    <configuration name="MainPage.testBlogPage" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="romance-abroad4" />
+  <component name="RunManager" selected="TestNG.RegistrationTests.testRegistration">
+    <configuration name="MediaTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="romance" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MainPage" />
-      <option name="METHOD_NAME" value="testBlogPage" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="MAIN_CLASS_NAME" value="MediaTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainPage.testGiftPage" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="romance-abroad4" />
+    <configuration name="RegistrationTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="romance" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MainPage" />
-      <option name="METHOD_NAME" value="testGiftPage" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="MAIN_CLASS_NAME" value="RegistrationTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainPage.testRegistration" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="romance-abroad4" />
+    <configuration name="RegistrationTests.testRegistration" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="romance" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MainPage" />
+      <option name="MAIN_CLASS_NAME" value="RegistrationTests" />
       <option name="METHOD_NAME" value="testRegistration" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -84,10 +95,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainPage.testSearchGift" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="RegistrationTests.testSearchGift" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romance-abroad4" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MainPage" />
+      <option name="MAIN_CLASS_NAME" value="RegistrationTests" />
       <option name="METHOD_NAME" value="testSearchGift" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -96,10 +107,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainPage.testTourPage" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="RegistrationTests.testTourPage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romance-abroad4" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MainPage" />
+      <option name="MAIN_CLASS_NAME" value="RegistrationTests" />
       <option name="METHOD_NAME" value="testTourPage" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -109,19 +120,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.MainPage.testRegistration" />
-      <item itemvalue="TestNG.MainPage.testGiftPage" />
-      <item itemvalue="TestNG.MainPage.testBlogPage" />
-      <item itemvalue="TestNG.MainPage.testTourPage" />
-      <item itemvalue="TestNG.MainPage.testSearchGift" />
+      <item itemvalue="TestNG.RegistrationTests.testTourPage" />
+      <item itemvalue="TestNG.RegistrationTests.testSearchGift" />
+      <item itemvalue="TestNG.MediaTests" />
+      <item itemvalue="TestNG.RegistrationTests" />
+      <item itemvalue="TestNG.RegistrationTests.testRegistration" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.MainPage.testSearchGift" />
-        <item itemvalue="TestNG.MainPage.testTourPage" />
-        <item itemvalue="TestNG.MainPage.testBlogPage" />
-        <item itemvalue="TestNG.MainPage.testGiftPage" />
-        <item itemvalue="TestNG.MainPage.testRegistration" />
+        <item itemvalue="TestNG.RegistrationTests.testRegistration" />
+        <item itemvalue="TestNG.RegistrationTests" />
+        <item itemvalue="TestNG.MediaTests" />
+        <item itemvalue="TestNG.RegistrationTests.testSearchGift" />
+        <item itemvalue="TestNG.RegistrationTests.testTourPage" />
       </list>
     </recent_temporary>
   </component>
@@ -150,7 +161,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
