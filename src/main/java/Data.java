@@ -9,4 +9,7 @@ public class Data {
 
     static final String expectedUrlMedia = "https://romanceabroad.com/media/index";
     static final String expectedUrlSearch = "https://romanceabroad.com/users/search";
+
+    //Search Data
+    static final String product = "sushi";
 }

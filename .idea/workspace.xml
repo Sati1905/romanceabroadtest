@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a98b4a63-ef82-485c-a667-7c352fe12457" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Data.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Locators.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/BaseUI.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/MediaTests.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/RegistrationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SearchTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Data.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Locators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Locators.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/MainPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SearchTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SearchTests.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +60,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.RegistrationTests.testRegistration">
+  <component name="RunManager" selected="TestNG.SearchTests.testSearchGift">
     <configuration name="MediaTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romance" />
       <option name="PACKAGE_NAME" value="" />
@@ -107,11 +107,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegistrationTests.testTourPage" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="romance-abroad4" />
+    <configuration name="SearchTests.testSearchGift" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="romance" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RegistrationTests" />
-      <option name="METHOD_NAME" value="testTourPage" />
+      <option name="MAIN_CLASS_NAME" value="SearchTests" />
+      <option name="METHOD_NAME" value="testSearchGift" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -120,19 +120,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.RegistrationTests.testTourPage" />
       <item itemvalue="TestNG.RegistrationTests.testSearchGift" />
       <item itemvalue="TestNG.MediaTests" />
       <item itemvalue="TestNG.RegistrationTests" />
       <item itemvalue="TestNG.RegistrationTests.testRegistration" />
+      <item itemvalue="TestNG.SearchTests.testSearchGift" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.SearchTests.testSearchGift" />
         <item itemvalue="TestNG.RegistrationTests.testRegistration" />
         <item itemvalue="TestNG.RegistrationTests" />
         <item itemvalue="TestNG.MediaTests" />
         <item itemvalue="TestNG.RegistrationTests.testSearchGift" />
-        <item itemvalue="TestNG.RegistrationTests.testTourPage" />
       </list>
     </recent_temporary>
   </component>

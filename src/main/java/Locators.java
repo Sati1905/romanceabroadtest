@@ -15,6 +15,12 @@ public class Locators {
 
     //Search page
     public static final By LINK_SEARCH = By.xpath("//a[@href='https://romanceabroad.com/users/search']");
+    public static final By TEXT_FIELD_PRODUCT = By.cssSelector("input#search_product");
+
+
+    //Click button
+    public static final By LINK_GIFTS = By.cssSelector("a[href='https://romanceabroad.com/store/category-sweets']");
+    public static final By BUTTON_SEARCH_GIFTS  = By.xpath("//button[@id='search_friend']");
 }
 
 
