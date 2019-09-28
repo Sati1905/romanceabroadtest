@@ -9,6 +9,8 @@ public class Data {
 
     static final String expectedUrlMedia = "https://romanceabroad.com/media/index";
     static final String expectedUrlSearch = "https://romanceabroad.com/users/search";
+    static final String currentUrl = "https://romanceabroad.com/";
+    static final String ExpectedUrlBlog = "https://romanceabroad.com/content/view/blog";
 
     //Search Data
     static final String product = "sushi";

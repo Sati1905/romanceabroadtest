@@ -21,6 +21,9 @@ public class Locators {
     //Click button
     public static final By LINK_GIFTS = By.cssSelector("a[href='https://romanceabroad.com/store/category-sweets']");
     public static final By BUTTON_SEARCH_GIFTS  = By.xpath("//button[@id='search_friend']");
+
+    //Blog Page
+    public static final By LINK_BLOG = By.xpath("//a[@href='https://romanceabroad.com/content/view/blog']");
 }
 
 
