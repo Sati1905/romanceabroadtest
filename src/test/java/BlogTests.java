@@ -14,5 +14,5 @@ import org.testng.annotations.Test;
             System.out.println(currentUrl);
            Assert.assertEquals(currentUrl,expectedUrlBlog);
         }
-        
+
 }
