@@ -1,8 +1,9 @@
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
 
 public class RegistrationTests extends BaseUI {
-
 
     @Test
     public void testRegistration() {
@@ -13,7 +14,6 @@ public class RegistrationTests extends BaseUI {
         driver.findElement(Locators.TEXT_FIELD_NICKNAME).sendKeys(Data.nickname);
         driver.findElement(Locators.TEXT_FIELD_PHONE).sendKeys(Data.phone);
     }
-
 
 }
 

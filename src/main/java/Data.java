@@ -11,7 +11,10 @@ public class Data {
     static final String expectedUrlSearch = "https://romanceabroad.com/users/search";
     static final String currentUrl = "https://romanceabroad.com/";
     static final String ExpectedUrlBlog = "https://romanceabroad.com/content/view/blog";
+    static final String ExpectedUrlTourToUkraine = "https://romanceabroad.com/store/sweets/20-tour_to_ukraine";
 
     //Search Data
     static final String product = "sushi";
+
+
 }

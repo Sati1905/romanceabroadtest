@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a98b4a63-ef82-485c-a667-7c352fe12457" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/MainPageTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TourToUkraineTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Data.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Locators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Locators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BaseUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaseUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/BlogTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BlogTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RegistrationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RegistrationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/SearchTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SearchTests.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,6 +47,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunDashboard">
@@ -57,11 +62,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.SearchTests.testSearchPage">
-    <configuration name="BlogTests" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.MainPageTests.test">
+    <configuration name="MainPageTests.test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romance" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BlogTests" />
+      <option name="MAIN_CLASS_NAME" value="MainPageTests" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MediaTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="romance" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MediaTests" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -69,35 +86,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MediaTests.testMediaPage" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="NewUserRegistrationTest.NewUserRegistrationTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romance" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MediaTests" />
-      <option name="METHOD_NAME" value="testMediaPage" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RegistrationTests.testRegistration" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="romance" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RegistrationTests" />
-      <option name="METHOD_NAME" value="testRegistration" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SearchTests.testSearchGift" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="romance" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SearchTests" />
-      <option name="METHOD_NAME" value="testSearchGift" />
+      <option name="MAIN_CLASS_NAME" value="NewUserRegistrationTest" />
+      <option name="METHOD_NAME" value="NewUserRegistrationTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -117,20 +110,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TourToUkraineTests.testTouToUkraine" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="romance" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TourToUkraineTests" />
+      <option name="METHOD_NAME" value="testTouToUkraine" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="TestNG.RegistrationTests.testRegistration" />
-      <item itemvalue="TestNG.SearchTests.testSearchGift" />
-      <item itemvalue="TestNG.MediaTests.testMediaPage" />
-      <item itemvalue="TestNG.BlogTests" />
+      <item itemvalue="TestNG.NewUserRegistrationTest.NewUserRegistrationTest" />
+      <item itemvalue="TestNG.MediaTests" />
       <item itemvalue="TestNG.SearchTests.testSearchPage" />
+      <item itemvalue="TestNG.TourToUkraineTests.testTouToUkraine" />
+      <item itemvalue="TestNG.MainPageTests.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.MainPageTests.test" />
+        <item itemvalue="TestNG.TourToUkraineTests.testTouToUkraine" />
         <item itemvalue="TestNG.SearchTests.testSearchPage" />
-        <item itemvalue="TestNG.BlogTests" />
-        <item itemvalue="TestNG.MediaTests.testMediaPage" />
-        <item itemvalue="TestNG.SearchTests.testSearchGift" />
-        <item itemvalue="TestNG.RegistrationTests.testRegistration" />
+        <item itemvalue="TestNG.MediaTests" />
+        <item itemvalue="TestNG.NewUserRegistrationTest.NewUserRegistrationTest" />
       </list>
     </recent_temporary>
   </component>

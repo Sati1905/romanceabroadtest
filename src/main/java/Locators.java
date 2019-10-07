@@ -24,6 +24,9 @@ public class Locators {
 
     //Blog Page
     public static final By LINK_BLOG = By.xpath("//a[@href='https://romanceabroad.com/content/view/blog']");
+
+    //TourToUkraine Page
+    public static final By LINK_TOUR_TO_UKRAINE = By.xpath("//a[@href='https://romanceabroad.com/store/sweets/20-tour_to_ukraine']");
 }
 
 

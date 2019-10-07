@@ -22,6 +22,8 @@ public class SearchTests extends BaseUI {
         select.selectByValue("date_created");
     }
 
+
+
     //Created test case for Gifts Search button and for the text input in the search box
     @Test
     public void testSearchGift(){
