@@ -1,3 +1,4 @@
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -10,7 +11,7 @@ import org.testng.annotations.BeforeMethod;
 public class BaseUI {
     WebDriver driver;
     WebDriverWait wait;
-    String mainUrl = "https://romanceabroad.com/";
+
 
 
     @BeforeMethod
@@ -20,7 +21,7 @@ public class BaseUI {
         driver = new ChromeDriver();
         wait = new WebDriverWait(driver, 20);
         driver.manage().window().maximize();
-        driver.get(mainUrl);
+        driver.get(Data.mainUrl);
     }
 
     @AfterMethod
@@ -28,14 +29,30 @@ public class BaseUI {
         // driver.quit();
     }
      //method for DropDownList
-    public void getDropDownListByIndex (WebElement element, int index) {
-        Select ageDropDown = new Select(element);
-        ageDropDown.selectByIndex(index);
+     public void getDropDownListByIndex(By locator, int index){
+         Select select = new Select(driver.findElement(locator));
+         select.selectByIndex(index);
+     }
+
+    public void getDropDownListByText(WebElement element, String text){
+        Select select = new Select(element);
+        select.selectByVisibleText(text);
+
     }
+
+    public void getDropDownListByValue(WebElement element, String value){
+        Select select = new Select(element);
+        select.selectByValue(value);
+
+    }
+
+
+
     //method for clickByMouse
         public void clickByMouse (WebElement element) {
             Actions action = new Actions (driver);
             action.moveToElement(element).perform();
+
         }
 
 }
