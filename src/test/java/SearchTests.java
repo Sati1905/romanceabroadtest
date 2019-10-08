@@ -9,17 +9,7 @@ public class SearchTests extends BaseUI {
 
     @Test
     public void testSearchPage() {
-        driver.findElement(Locators.LINK_SEARCH).click();
-        currentUrlSearch = driver.getCurrentUrl();
-        System.out.println(currentUrlSearch);
-        Assert.assertEquals(currentUrlSearch, Data.expectedUrlSearch);
-        try {
-            Thread.sleep(3000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-        Select select= new Select (driver.findElement(By.xpath("//div[@class='form-inline']//select")));
-        select.selectByValue("date_created");
+        searchPage.clickSearch();
     }
 
 
@@ -27,10 +17,7 @@ public class SearchTests extends BaseUI {
     //Created test case for Gifts Search button and for the text input in the search box
     @Test
     public void testSearchGift(){
-        driver.findElement(Locators.LINK_GIFTS).click();
-        driver.findElement(Locators.TEXT_FIELD_PRODUCT).sendKeys(Data.product);
-        driver.findElement(Locators.BUTTON_SEARCH_GIFTS).click();
-
+       searchPage.Searchgift();
     }
 
 

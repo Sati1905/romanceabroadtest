@@ -7,9 +7,6 @@ public class MediaTests extends BaseUI {
 
     @Test
     public void testMediaPage() {
-        driver.findElement(Locators.LINK_MEDIA).click();
-        currentUrlMedia = driver.getCurrentUrl();
-        System.out.println(currentUrlMedia);
-        Assert.assertEquals(currentUrlMedia, Data.expectedUrlMedia);
+      MediaPage.  //can't find MediaPage class after dot..
     }
 }

@@ -12,6 +12,8 @@ public class Locators {
     public static final By TEXT_FIELD_PASSWORD = By.cssSelector("input#password");
     public static final By TEXT_FIELD_NICKNAME = By.cssSelector("#nickname");
     public static final By TEXT_FIELD_PHONE = By.cssSelector("input[name='data[phone]']");
+    public static final By REGISTRATION_DAY_SELECT_BY_ID = By.cssSelector("#daySelect");
+    public static final By REGISTRATION_DAY_SELECT_BY_VALUE = By.cssSelector("//li[@data-handler='selectDay'][@data-value='2']");
 
     //Search page
     public static final By LINK_SEARCH = By.xpath("//a[@href='https://romanceabroad.com/users/search']");

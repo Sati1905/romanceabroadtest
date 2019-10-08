@@ -11,6 +11,9 @@ import org.testng.annotations.BeforeMethod;
 public class BaseUI {
     WebDriver driver;
     WebDriverWait wait;
+    MainPage mainPage;
+    SearchPage searchPage;
+    RegistrationPage registrationPage;
 
 
 
@@ -20,6 +23,9 @@ public class BaseUI {
         System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
         driver = new ChromeDriver();
         wait = new WebDriverWait(driver, 20);
+        mainPage = new MainPage(driver, wait);
+        searchPage = new SearchPage(driver, wait);
+        registrationPage = new RegistrationPage(driver, wait);
         driver.manage().window().maximize();
         driver.get(Data.mainUrl);
     }

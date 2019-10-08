@@ -1,20 +1,12 @@
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.testng.Assert;
 import org.testng.annotations.Test;
-
-import java.util.concurrent.TimeUnit;
 
 
 public class TourToUkraineTests extends BaseUI {
     String currentUrl;
 
     @Test
-    public void testTouToUkraine() {
-        driver.findElement(Locators.LINK_TOUR_TO_UKRAINE).click();
-        currentUrl = driver.getCurrentUrl();
-        Assert.assertEquals(currentUrl, Data.ExpectedUrlTourToUkraine);
-        wait.until(ExpectedConditions.elementToBeClickable(driver.findElement(Locators.LINK_GIFTS)));
-        driver.findElement(Locators.LINK_GIFTS).click();
+    public void testTourToUkraine() {
+        TourToUkrainePage. //can't find TourToUkrainePage class after dot...
     }
 
 }
