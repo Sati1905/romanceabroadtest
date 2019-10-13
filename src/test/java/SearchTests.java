@@ -10,15 +10,17 @@ public class SearchTests extends BaseUI {
     @Test
     public void testSearchPage() {
         searchPage.clickSearch();
+        currentUrlSearch = driver.getCurrentUrl();
+        Assert.assertEquals(currentUrlSearch, Data.expectedUrlSearch);
+
     }
-
-
 
     //Created test case for Gifts Search button and for the text input in the search box
     @Test
-    public void testSearchGift(){
-       searchPage.Searchgift();
+    public void testSearchGift() {
+        searchPage.searchgift();
     }
 
 
-    }
+
+}

@@ -2,15 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a98b4a63-ef82-485c-a667-7c352fe12457" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/BaseActions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MainPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MediaPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/RegistrationPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SearchPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TourToUkrainePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IEDriverServer.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestNG.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geckodriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/BlogPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BaseActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BaseActions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Data.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Locators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Locators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MediaPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MediaPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SearchPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TourToUkrainePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TourToUkrainePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/BaseUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaseUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BlogTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BlogTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/MainPageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MainPageTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/MediaTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MediaTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/RegistrationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RegistrationTests.java" afterDir="false" />
@@ -41,14 +48,22 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1QqM04Gtu98zPIPi9BsmbzLKEZn" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -58,6 +73,9 @@
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Satenik\project\GitHub\romanceabroadtest\romanceabroadtest" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -72,36 +90,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.SearchTests.testSearchGift">
-    <configuration name="MainPageTests.test" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.C:/Users/Satenik/project/GitHub/romanceabroadtest/romanceabroadtest/TestNG.xml">
+    <configuration name="BlogTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romance" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MainPageTests" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="MAIN_CLASS_NAME" value="BlogTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegistrationTests.secondRegistration" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/Users/Satenik/project/GitHub/romanceabroadtest/romanceabroadtest/TestNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romance" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RegistrationTests" />
-      <option name="METHOD_NAME" value="secondRegistration" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/TestNG.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegistrationTests.testRegistration" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="MediaTests.Test2" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romance" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RegistrationTests" />
-      <option name="METHOD_NAME" value="testRegistration" />
+      <option name="MAIN_CLASS_NAME" value="MediaTests" />
+      <option name="METHOD_NAME" value="Test2" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -121,11 +136,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchTests.testSearchPage" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TourToUkraineTests.testTourToUkraine" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romance" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SearchTests" />
-      <option name="METHOD_NAME" value="testSearchPage" />
+      <option name="MAIN_CLASS_NAME" value="TourToUkraineTests" />
+      <option name="METHOD_NAME" value="testTourToUkraine" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -134,19 +149,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.SearchTests.testSearchPage" />
-      <item itemvalue="TestNG.MainPageTests.test" />
-      <item itemvalue="TestNG.RegistrationTests.testRegistration" />
-      <item itemvalue="TestNG.RegistrationTests.secondRegistration" />
       <item itemvalue="TestNG.SearchTests.testSearchGift" />
+      <item itemvalue="TestNG.MediaTests.Test2" />
+      <item itemvalue="TestNG.C:/Users/Satenik/project/GitHub/romanceabroadtest/romanceabroadtest/TestNG.xml" />
+      <item itemvalue="TestNG.TourToUkraineTests.testTourToUkraine" />
+      <item itemvalue="TestNG.BlogTests" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/Satenik/project/GitHub/romanceabroadtest/romanceabroadtest/TestNG.xml" />
+        <item itemvalue="TestNG.BlogTests" />
+        <item itemvalue="TestNG.TourToUkraineTests.testTourToUkraine" />
+        <item itemvalue="TestNG.MediaTests.Test2" />
         <item itemvalue="TestNG.SearchTests.testSearchGift" />
-        <item itemvalue="TestNG.SearchTests.testSearchPage" />
-        <item itemvalue="TestNG.RegistrationTests.secondRegistration" />
-        <item itemvalue="TestNG.RegistrationTests.testRegistration" />
-        <item itemvalue="TestNG.MainPageTests.test" />
       </list>
     </recent_temporary>
   </component>

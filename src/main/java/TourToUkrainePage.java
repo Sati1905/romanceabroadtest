@@ -9,10 +9,8 @@ public class TourToUkrainePage extends BaseActions{
     }
 
     String currentUrl;
-    public void ClickGifts(){
+    public void clickGifts(){
         driver.findElement(Locators.LINK_TOUR_TO_UKRAINE).click();
-        currentUrl = driver.getCurrentUrl();
-        Assert.assertEquals(currentUrl, Data.ExpectedUrlTourToUkraine); //why Assert is not recognized?
         wait.until(ExpectedConditions.elementToBeClickable(driver.findElement(Locators.LINK_GIFTS)));
         driver.findElement(Locators.LINK_GIFTS).click();
 

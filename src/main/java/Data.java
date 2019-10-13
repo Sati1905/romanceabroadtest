@@ -13,7 +13,8 @@ public class Data {
     public static final String expectedUrlSearch = "https://romanceabroad.com/users/search";
     public static final String currentUrl = "https://romanceabroad.com/";
     public static final String ExpectedUrlBlog = "https://romanceabroad.com/content/view/blog";
-    public static final String ExpectedUrlTourToUkraine = "https://romanceabroad.com/store/sweets/20-tour_to_ukraine";
+    public static final String expectedUrlTourToUkraine = "https://romanceabroad.com/store/sweets/20-tour_to_ukraine";
+    public static final String expectedUrlSweets = "https://romanceabroad.com/store/category-sweets";
 
     //Search Data
     public static final String product = "sushi";

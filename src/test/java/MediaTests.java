@@ -1,3 +1,4 @@
+import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -7,6 +8,11 @@ public class MediaTests extends BaseUI {
 
     @Test
     public void testMediaPage() {
-      MediaPage.  //can't find MediaPage class after dot..
+        mediaPage.navigateToMediaPage();
+        currentUrlMedia = driver.getCurrentUrl();
+        Assert.assertEquals(currentUrlMedia, Data.expectedUrlMedia);
     }
 }
+
+
+

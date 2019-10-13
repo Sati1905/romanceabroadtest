@@ -1,3 +1,4 @@
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 
@@ -6,7 +7,9 @@ public class TourToUkraineTests extends BaseUI {
 
     @Test
     public void testTourToUkraine() {
-        TourToUkrainePage. //can't find TourToUkrainePage class after dot...
+        tourToUkrainePage.clickGifts();
+        currentUrl = driver.getCurrentUrl();
+        Assert.assertEquals(currentUrl, Data.expectedUrlSweets);
     }
 
 }

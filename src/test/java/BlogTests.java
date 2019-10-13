@@ -1,17 +1,24 @@
+
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
     public class BlogTests extends BaseUI {
-        String currentUrl;
-        String expectedUrlBlog;
+String currentUrl;
 
-       //Created test case for Blog page and used xpath
         @Test
-        public void testBlogPage() {
-            driver.findElement(Locators.LINK_BLOG).click();
-            currentUrl =driver.getCurrentUrl();
+         public void testBlogPage () {
+            blogPage.testBlogPage();
+            try {
+                Thread.sleep(3000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+
+            }
+            currentUrl = driver.getCurrentUrl();
             System.out.println(Data.currentUrl);
-            Assert.assertEquals(Data.currentUrl,Data.ExpectedUrlBlog);
+            Assert.assertEquals(currentUrl, Data.ExpectedUrlBlog);
+
         }
 
 }
+

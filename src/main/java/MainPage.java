@@ -1,4 +1,6 @@
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class MainPage extends BaseActions{
@@ -22,6 +24,27 @@ public class MainPage extends BaseActions{
           driver.findElement(Locators.REGISTRATION_DAY_SELECT_BY_VALUE).click();
 
       }
+
+      public WebElement getElementIframe(){
+        WebElement element = driver.findElement(Locators.IFRAME_YOUTUBE_VIDEO);
+        return element;
+
+    }
+
+    public void clickIframeYoutubeVideo(){
+        driver.findElement(Locators.BUTTON_YOUTUBE_VIDEO).click();
+    }
+
+    public void transferToIframe(WebElement ele){
+        driver.switchTo().frame(ele);
+    }
+
+    public void activateYoutubeVideo(WebElement element){
+        getElementIframe();
+        transferToIframe(element);
+        clickIframeYoutubeVideo();
+
+    }
 }
 
 
