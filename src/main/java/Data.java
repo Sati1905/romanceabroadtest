@@ -7,6 +7,7 @@ public class Data {
     public static final String password ="338377377m";
     public static final String nickname ="paul444";
     public static final String phone ="123456789";
+    public static final String secondRegistrationlink = "https://romanceabroad.com/users/registration/";
 
 
     public static final String expectedUrlMedia = "https://romanceabroad.com/media/index";

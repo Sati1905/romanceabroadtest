@@ -2,27 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a98b4a63-ef82-485c-a667-7c352fe12457" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IEDriverServer.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestNG.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geckodriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BlogPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Conditions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BaseActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BaseActions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Data.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Locators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Locators.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MediaPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MediaPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SearchPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TourToUkrainePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TourToUkrainePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/BaseUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaseUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/BlogTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BlogTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MainPageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MainPageTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/MediaTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MediaTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/RegistrationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RegistrationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SearchTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SearchTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TourToUkraineTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TourToUkraineTests.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -90,33 +78,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/Satenik/project/GitHub/romanceabroadtest/romanceabroadtest/TestNG.xml">
-    <configuration name="BlogTests" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.Conditions.test5">
+    <configuration name="Conditions.test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romance" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BlogTests" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C:/Users/Satenik/project/GitHub/romanceabroadtest/romanceabroadtest/TestNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="romance" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/TestNG.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MediaTests.Test2" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="romance" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MediaTests" />
-      <option name="METHOD_NAME" value="Test2" />
+      <option name="MAIN_CLASS_NAME" value="Conditions" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -124,11 +91,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchTests.testSearchGift" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Conditions.test2" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romance" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SearchTests" />
-      <option name="METHOD_NAME" value="testSearchGift" />
+      <option name="MAIN_CLASS_NAME" value="Conditions" />
+      <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -136,11 +103,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TourToUkraineTests.testTourToUkraine" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Conditions.test3" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romance" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TourToUkraineTests" />
-      <option name="METHOD_NAME" value="testTourToUkraine" />
+      <option name="MAIN_CLASS_NAME" value="Conditions" />
+      <option name="METHOD_NAME" value="test3" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Conditions.test4" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="romance" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Conditions" />
+      <option name="METHOD_NAME" value="test4" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Conditions.test5" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="romance" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Conditions" />
+      <option name="METHOD_NAME" value="test5" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -149,19 +140,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.SearchTests.testSearchGift" />
-      <item itemvalue="TestNG.MediaTests.Test2" />
-      <item itemvalue="TestNG.C:/Users/Satenik/project/GitHub/romanceabroadtest/romanceabroadtest/TestNG.xml" />
-      <item itemvalue="TestNG.TourToUkraineTests.testTourToUkraine" />
-      <item itemvalue="TestNG.BlogTests" />
+      <item itemvalue="TestNG.Conditions.test" />
+      <item itemvalue="TestNG.Conditions.test2" />
+      <item itemvalue="TestNG.Conditions.test3" />
+      <item itemvalue="TestNG.Conditions.test4" />
+      <item itemvalue="TestNG.Conditions.test5" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C:/Users/Satenik/project/GitHub/romanceabroadtest/romanceabroadtest/TestNG.xml" />
-        <item itemvalue="TestNG.BlogTests" />
-        <item itemvalue="TestNG.TourToUkraineTests.testTourToUkraine" />
-        <item itemvalue="TestNG.MediaTests.Test2" />
-        <item itemvalue="TestNG.SearchTests.testSearchGift" />
+        <item itemvalue="TestNG.Conditions.test5" />
+        <item itemvalue="TestNG.Conditions.test4" />
+        <item itemvalue="TestNG.Conditions.test3" />
+        <item itemvalue="TestNG.Conditions.test2" />
+        <item itemvalue="TestNG.Conditions.test" />
       </list>
     </recent_temporary>
   </component>
