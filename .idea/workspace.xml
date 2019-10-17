@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a98b4a63-ef82-485c-a667-7c352fe12457" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Conditions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Data.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Locators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Locators.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BaseUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaseUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BlogTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BlogTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MediaTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MediaTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RegistrationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RegistrationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Conditions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Conditions.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -78,12 +72,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.Conditions.test5">
-    <configuration name="Conditions.test" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.Conditions.test6">
+    <configuration name="Conditions.test10" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romance" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Conditions" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="METHOD_NAME" value="test10" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -91,11 +85,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Conditions.test2" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Conditions.test6" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romance" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Conditions" />
-      <option name="METHOD_NAME" value="test2" />
+      <option name="METHOD_NAME" value="test6" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -103,11 +97,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Conditions.test3" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Conditions.test7" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romance" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Conditions" />
-      <option name="METHOD_NAME" value="test3" />
+      <option name="METHOD_NAME" value="test7" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -115,11 +109,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Conditions.test4" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Conditions.test7a" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romance" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Conditions" />
-      <option name="METHOD_NAME" value="test4" />
+      <option name="METHOD_NAME" value="test7a" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -127,11 +121,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Conditions.test5" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Conditions.test7c" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romance" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Conditions" />
-      <option name="METHOD_NAME" value="test5" />
+      <option name="METHOD_NAME" value="test7c" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -140,19 +134,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.Conditions.test" />
-      <item itemvalue="TestNG.Conditions.test2" />
-      <item itemvalue="TestNG.Conditions.test3" />
-      <item itemvalue="TestNG.Conditions.test4" />
-      <item itemvalue="TestNG.Conditions.test5" />
+      <item itemvalue="TestNG.Conditions.test7" />
+      <item itemvalue="TestNG.Conditions.test7a" />
+      <item itemvalue="TestNG.Conditions.test7c" />
+      <item itemvalue="TestNG.Conditions.test10" />
+      <item itemvalue="TestNG.Conditions.test6" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Conditions.test5" />
-        <item itemvalue="TestNG.Conditions.test4" />
-        <item itemvalue="TestNG.Conditions.test3" />
-        <item itemvalue="TestNG.Conditions.test2" />
-        <item itemvalue="TestNG.Conditions.test" />
+        <item itemvalue="TestNG.Conditions.test6" />
+        <item itemvalue="TestNG.Conditions.test10" />
+        <item itemvalue="TestNG.Conditions.test7c" />
+        <item itemvalue="TestNG.Conditions.test7a" />
+        <item itemvalue="TestNG.Conditions.test7" />
       </list>
     </recent_temporary>
   </component>
