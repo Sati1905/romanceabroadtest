@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a98b4a63-ef82-485c-a667-7c352fe12457" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Locators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Locators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BaseActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BaseActions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Conditions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Conditions.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -72,12 +72,48 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.Conditions.test6">
+  <component name="RunManager" selected="TestNG.Conditions.test12">
     <configuration name="Conditions.test10" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romance" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Conditions" />
       <option name="METHOD_NAME" value="test10" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Conditions.test11" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="romance" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Conditions" />
+      <option name="METHOD_NAME" value="test11" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Conditions.test12" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="romance" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Conditions" />
+      <option name="METHOD_NAME" value="test12" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Conditions.test13" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="romance" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Conditions" />
+      <option name="METHOD_NAME" value="test13" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -97,56 +133,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Conditions.test7" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="romance" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Conditions" />
-      <option name="METHOD_NAME" value="test7" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Conditions.test7a" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="romance" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Conditions" />
-      <option name="METHOD_NAME" value="test7a" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Conditions.test7c" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="romance" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Conditions" />
-      <option name="METHOD_NAME" value="test7c" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="TestNG.Conditions.test7" />
-      <item itemvalue="TestNG.Conditions.test7a" />
-      <item itemvalue="TestNG.Conditions.test7c" />
       <item itemvalue="TestNG.Conditions.test10" />
       <item itemvalue="TestNG.Conditions.test6" />
+      <item itemvalue="TestNG.Conditions.test11" />
+      <item itemvalue="TestNG.Conditions.test12" />
+      <item itemvalue="TestNG.Conditions.test13" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Conditions.test12" />
+        <item itemvalue="TestNG.Conditions.test13" />
+        <item itemvalue="TestNG.Conditions.test11" />
         <item itemvalue="TestNG.Conditions.test6" />
         <item itemvalue="TestNG.Conditions.test10" />
-        <item itemvalue="TestNG.Conditions.test7c" />
-        <item itemvalue="TestNG.Conditions.test7a" />
-        <item itemvalue="TestNG.Conditions.test7" />
       </list>
     </recent_temporary>
   </component>

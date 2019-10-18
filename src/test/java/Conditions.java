@@ -2,9 +2,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
-
-import java.sql.SQLOutput;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -79,13 +76,16 @@ public class Conditions extends BaseUI {
         String expectedUrlPrettyWomen = "https://romanceabroad.com/users/search";
         String expectedTitleHowWeWork = "Ukrainian women for marriage";
         String expectedTitlePrettyWomen = "Single Ukrainian women online";
+        String info;
+
         List<WebElement> links = driver.findElements(Locators.TAB_OF_MAIN_PAGE);
         System.out.println(links.size());
 
         for (int i = 0; i < links.size(); i++) {
-            String info = links.get(i).getText();
+            info = links.get(i).getText();
             System.out.println(info);
-            links.get(i).click();
+            //links.get(i).click();
+            mainPage.ajaxClick(links.get(i));
 
             if (info.contains("WORK")) {
                 actualTitle = driver.findElement(Locators.TITLE_OF_PAGE).getText();
@@ -98,6 +98,11 @@ public class Conditions extends BaseUI {
                 Assert.assertEquals(expectedTitlePrettyWomen, actualTitle);
                 Assert.assertEquals(actualUrlPrettyWomen, expectedUrlPrettyWomen);
                 driver.findElement(Locators.USERS_GALLERY_PHOTO).isDisplayed();
+                if (actualUrlPrettyWomen.contains("#")){
+                    Assert.fail("It contains restricted #");
+                } else {
+                    System.out.println("No special character. it is a good url!!!");
+                }
             }
 
 
@@ -171,6 +176,20 @@ public class Conditions extends BaseUI {
             }
         }
 
+    }
+
+    @Test
+    public void test11(){
+        By linkSignIn = By.xpath("//div[@class='col-lg-12 text-center'] //a[@href='#']");
+        mainPage.ajaxClick (linkSignIn, 0);
+    }
+
+
+    @Test
+    public void test12(){
+        //mainPage.ajaxClick(Locators.TAB_OF_MAIN_PAGE,3);
+        //mainPage.performClick(Locators.TAB_OF_MAIN_PAGE,4);
+        mainPage.scrollToBottomOfPage();
     }
 
 }
