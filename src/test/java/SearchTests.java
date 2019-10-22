@@ -18,9 +18,18 @@ public class SearchTests extends BaseUI {
     //Created test case for Gifts Search button and for the text input in the search box
     @Test
     public void testSearchGift() {
-        searchPage.searchgift();
+        searchPage.SearchGift();
     }
 
+    @Test
+    public void selectRandomDropDownList() {
+        driver.findElement(Locators.LINK_SEARCH).click();
 
-
+       int sizeOfDropDownListSortBy = searchPage.getSizeDropDownList(Locators.DROP_DOWN_MAX_AGE);
+        System.out.println(sizeOfDropDownListSortBy);
+        for (int i = 0; i < sizeOfDropDownListSortBy; i++) {
+            searchPage.selectItemDropDownRandomOption(Locators.DROP_DOWN_MAX_AGE, "Sort by");
+            mainPage.javaWaitSec(3);
+        }
+    }
 }

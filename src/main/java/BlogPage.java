@@ -1,15 +1,12 @@
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 
 public class BlogPage extends BaseActions {
+    public BlogPage(WebDriver driver, WebDriverWait wait) { super(driver, wait); }
 
-    public BlogPage(WebDriver driver, WebDriverWait wait) {
-        super(driver, wait);
-    }
-
-
-    String currentUrl;
+    String currentUrlBlog;
 
     public void testBlogPage() {
         driver.findElement(Locators.LINK_BLOG).click();

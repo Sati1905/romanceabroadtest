@@ -25,7 +25,7 @@ public class SearchPage extends BaseActions{
 
 
     //Test2
-    public void searchgift(){
+    public void SearchGift(){
         driver.findElement(Locators.LINK_GIFTS).click();
         driver.findElement(Locators.TEXT_FIELD_PRODUCT).sendKeys(Data.product);
         driver.findElement(Locators.BUTTON_SEARCH_GIFTS).click();

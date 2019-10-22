@@ -2,7 +2,7 @@ public class Data {
 
     public static final String mainUrl = "https://romanceabroad.com/";
 
-    //Registration data
+    //Join for free/Registration data
     public static final String email ="11@gmail.com";
     public static final String password ="338377377m";
     public static final String nickname ="paul444";
@@ -19,6 +19,9 @@ public class Data {
 
     //Search Data
     public static final String product = "sushi";
+
+    //Blog
+    public static final String expectedUrlBlog = "https://romanceabroad.com/content/view/blog";
 
 
 }

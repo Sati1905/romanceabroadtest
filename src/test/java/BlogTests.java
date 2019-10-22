@@ -18,6 +18,5 @@ String currentUrl;
             Assert.assertEquals(currentUrl, Data.ExpectedUrlBlog);
 
         }
-
 }
 

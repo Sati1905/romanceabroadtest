@@ -20,6 +20,7 @@ public class Locators {
     public static final By TEXT_FIELD_PRODUCT = By.cssSelector("input#search_product");
     public static final By DROP_DOWN_LIST_SORT_BY = By.xpath("//div[@class='pull-left pl15']//select");
     public static final By TAB_SEARCH = By.xpath("//a[@href='https://romanceabroad.com/users/search']");
+    public static final By DROP_DOWN_MAX_AGE = By.cssSelector("select#ageage_max");
 
     //Click button
     public static final By LINK_GIFTS = By.cssSelector("a[href='https://romanceabroad.com/store/category-sweets']");
@@ -39,6 +40,19 @@ public class Locators {
     public static final By TAB_OF_MAIN_PAGE = By.xpath("//ul[@class='navbar-nav']//li");
     public static final By USERS_GALLERY_PHOTO = By.xpath("//a[@class='g-pic-border g-rounded']");
 
+    //Create 10 xpath (with 2 attributes)
+    public static final By FIND_PEOPLE_BUTTON = By.xpath("//button[@id ='main_search_button_user_line'][@type = 'submit']");
+    public static final By BUTTON_NEXT_REGISTRATION = By.xpath ("//button[@data-action='next-page'][text()='Next']");
+    public static final By MEDIA_VIDEO = By.xpath ("//a[@href='https://romanceabroad.com/media/video'][@class='b-tabs__text']");
+    public static final By GALLERY_ALL = By.xpath ("//a[@href='https://romanceabroad.com/media/all'][@class='b-tabs__text']");
+    public static final By GALLERY_ALBUMS = By.xpath ("//a[@href='https://romanceabroad.com/media/albums'][@class='b-tabs__text']");
+    public static final By HELP = By.xpath ("//div[@class='footer-menu-title-block'][@id='footer-menu-title-0']");
+
+
+    // Create 10 xpaths with 2 parents
+    public static final By HOW_IT_WORKS_SHIPPING_TERMS = By.xpath("//li[5]/div/a/div/div");
+    public static final By FIND_PEOPLE_SEARCH_BUTTON = By.xpath ("//div[2]/div/form/button");
+    public static final By MEDIA_ADD_PHOTO = By.xpath ("//div[2]/div/button[@data-media ='add_photo']");
 
 
 }
