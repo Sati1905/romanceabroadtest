@@ -7,6 +7,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
+import org.testng.asserts.SoftAssert;
 
 import java.lang.reflect.Method;
 
@@ -20,6 +21,7 @@ public class BaseUI {
     TourToUkrainePage tourToUkrainePage;
     BlogPage blogPage;
     MediaPage mediaPage;
+    SoftAssert softAssert = new SoftAssert();
 
     @BeforeMethod
     @Parameters("browser")

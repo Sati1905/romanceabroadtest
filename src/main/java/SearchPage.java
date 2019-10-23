@@ -17,7 +17,6 @@ public class SearchPage extends BaseActions{
     public void clickSearch() {
         driver.findElement(Locators.LINK_SEARCH).click();
 
-
         WebElement dropDownListSortBy = driver.findElement(Locators.DROP_DOWN_LIST_SORT_BY);
 
         getDropDownListByValue(Locators.DROP_DOWN_LIST_SORT_BY, "date_created");

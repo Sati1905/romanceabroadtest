@@ -5,12 +5,14 @@
         <parameter name="browser" value="ie"/>
         <classes>
             <class name ="RegistrationTests"/>
+            <class name ="SearchTests"/>
         </classes>
     </test>
     <test name="FirefoxTestCases">
         <parameter name="browser" value="firefox"/>
         <classes>
             <class name ="RegistrationTests"/>
+            <class name ="SearchTests"/>
         </classes>
     </test>
     <test name="ChromeTestCases">
