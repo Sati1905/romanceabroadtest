@@ -4,8 +4,8 @@
     <list default="true" id="a98b4a63-ef82-485c-a667-7c352fe12457" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNG.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SearchPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/BaseUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaseUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MainPageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MainPageTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/SearchTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SearchTests.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -74,7 +74,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/Satenik/project/GitHub/romanceabroadtest/romanceabroadtest/TestNG.xml">
+  <component name="RunManager" selected="TestNG.MainPageTests.smokeTestMainPage">
     <configuration name="C:/Users/Satenik/project/GitHub/romanceabroadtest/romanceabroadtest/TestNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romance" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/TestNG.xml" />
@@ -85,11 +85,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainPageTests.testMediaPage" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="MainPageTests.smokeTestMainPage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romance" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MainPageTests" />
-      <option name="METHOD_NAME" value="testMediaPage" />
+      <option name="METHOD_NAME" value="smokeTestMainPage" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegistrationTests.testRegistration" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="romance" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RegistrationTests" />
+      <option name="METHOD_NAME" value="testRegistration" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -102,18 +114,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="SearchTests" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SearchTests.testSearchGift" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="romance" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SearchTests" />
-      <option name="METHOD_NAME" value="testSearchGift" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -133,19 +133,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.SearchTests.testSearchGift" />
       <item itemvalue="TestNG.C:/Users/Satenik/project/GitHub/romanceabroadtest/romanceabroadtest/TestNG.xml" />
-      <item itemvalue="TestNG.MainPageTests.testMediaPage" />
       <item itemvalue="TestNG.SearchTests.testSearchPage" />
       <item itemvalue="TestNG.SearchTests" />
+      <item itemvalue="TestNG.RegistrationTests.testRegistration" />
+      <item itemvalue="TestNG.MainPageTests.smokeTestMainPage" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.MainPageTests.smokeTestMainPage" />
         <item itemvalue="TestNG.C:/Users/Satenik/project/GitHub/romanceabroadtest/romanceabroadtest/TestNG.xml" />
+        <item itemvalue="TestNG.RegistrationTests.testRegistration" />
         <item itemvalue="TestNG.SearchTests" />
         <item itemvalue="TestNG.SearchTests.testSearchPage" />
-        <item itemvalue="TestNG.SearchTests.testSearchGift" />
-        <item itemvalue="TestNG.MainPageTests.testMediaPage" />
       </list>
     </recent_temporary>
   </component>

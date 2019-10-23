@@ -13,12 +13,12 @@ public class SearchTests extends BaseUI {
     public static final boolean testCase04 = true;
 
     @Test (priority = 1, enabled = testCase03, groups = {"user", "admin"})
-    public void validateAssertions(){
+    public void verificationsWebTestCase03(){
         Assert.assertEquals("Web", " Web");
     }
 
     @Test (priority = 2, enabled = testCase02, groups = {"ie"})
-    public void testSearchPage() {
+    public void testSearchPageTestCase02() {
         Assert.assertTrue(driver.findElement(Locators.LINK_SEARCH).isDisplayed(), "Element is not displayed");
         driver.findElement(Locators.LINK_SEARCH).click();
         currentUrlSearch = driver.getCurrentUrl();
@@ -32,7 +32,7 @@ public class SearchTests extends BaseUI {
     }
 
     @Test (priority = 1, enabled = testCase01, groups = {"user", "admin"})
-    public void selectRandomDropDownList() {
+    public void selectRandomDropDownListOnSearchPageTestCase01() {
         driver.findElement(Locators.LINK_SEARCH).click();
 
        int sizeOfDropDownListSortBy = searchPage.getSizeDropDownList(Locators.DROP_DOWN_MAX_AGE);
@@ -45,7 +45,7 @@ public class SearchTests extends BaseUI {
     }
     //Created test case for Gifts Search button and for the text input in the search box
     @Test (priority = 4, enabled = testCase04, groups = {"user", "admin"})
-    public void testSearchGift() {
+    public void testSearchGiftTestCase04() {
         searchPage.SearchGift();
     }
 

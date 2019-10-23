@@ -23,7 +23,7 @@ public class BaseUI {
     MediaPage mediaPage;
     SoftAssert softAssert = new SoftAssert();
 
-    @BeforeMethod
+    @BeforeMethod (groups = {"user", "admin", "ie"}, alwaysRun = true)
     @Parameters("browser")
     public void setup(@Optional("chrome") String browser, Method method) {
 // Check if parameter passed from TestNG is 'firefox';

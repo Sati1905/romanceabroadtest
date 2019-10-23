@@ -4,6 +4,8 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import java.util.List;
+
 public class MainPageTests extends BaseUI {
     String currentUrlMedia;
 
@@ -52,6 +54,17 @@ public class MainPageTests extends BaseUI {
         mainPage.checkLinksOnWebPage("//img", "src");
     }
 
+    @Test
+    public void smokeTestMainPage (){
+        List <WebElement> mainTabs =driver.findElements(By.xpath("//ul[@class='navbar-nav']//li/a"));
+        for (int i = 0; i <mainTabs.size() ; i++) {
+            mainTabs.get(i).click();
+            driver.get(Data.mainUrl);
+            mainTabs = driver.findElements(By.xpath("//ul[@class='navbar-nav']//li/a"));
+
+            
+        }
+    } 
 
 }
 
