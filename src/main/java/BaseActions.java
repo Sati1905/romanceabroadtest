@@ -1,3 +1,4 @@
+import org.apache.commons.lang3.RandomStringUtils;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.interactions.SourceType;
@@ -53,10 +54,11 @@ public class BaseActions {
     }
 
     //ajax click (doesn't work well with IE)
-    public void ajaxClick(WebElement element) {
+    public void ajaxClick(WebElement element){
         ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
         wait.until(ExpectedConditions.elementToBeClickable(element));
-        element.click();
+        ((JavascriptExecutor) driver).executeScript("arguments[0].click();", element);
+
     }
 
     public void ajaxClick(By by) {
@@ -127,7 +129,7 @@ public class BaseActions {
     public void selectItemDropDownRandomOption(By locator, String dropDownName) {
         try {
             WebElement element = driver.findElement(locator);
-            ((JavascriptExecutor) driver).executeScript ("argument [0].scrollIntoView(true);", element);
+            ((JavascriptExecutor) driver).executeScript("argument [0].scrollIntoView(true);", element);
             Select select = new Select(driver.findElement(locator));
             select.selectByIndex((int) (Math.random() * (select.getOptions().size() - 1)) + 1);
             System.out.println(dropDownName + ":" + select.getFirstSelectedOption().getText());
@@ -136,12 +138,12 @@ public class BaseActions {
         }
     }
 
-    public void checkLinksOnWebPage (String typeElement, String attribute){
+    public void checkLinksOnWebPage(String typeElement, String attribute) {
 
         List<WebElement> links = driver.findElements(By.xpath(typeElement));
 
         System.out.println("I start taking attributes on page");
-        for (int i = 0; i <links.size(); i++) {
+        for (int i = 0; i < links.size(); i++) {
             WebElement ele = links.get(i);
             String url = ele.getAttribute(attribute);
             verifyLinkActive(url);
@@ -149,8 +151,9 @@ public class BaseActions {
         }
         System.out.println("Total links are" + links.size());
     }
- //Method for Link verification
-    public void verifyLinkActive (String linkUrl) {
+
+    //Method for Link verification
+    public void verifyLinkActive(String linkUrl) {
         try {
             URL url = new URL(linkUrl);
             HttpURLConnection httpURLConnect = (HttpURLConnection) url.openConnection();
@@ -162,26 +165,47 @@ public class BaseActions {
                 System.out.println(linkUrl + " - " + httpURLConnect.getResponseMessage() + "-" + httpURLConnect.getResponseMessage());
             }
 
-        }catch (Exception e) {
+        } catch (Exception e) {
             e.printStackTrace();
         }
 
     }
 
-        public void scrollToBottomOfPage () {
-            ((JavascriptExecutor) driver).executeScript("window.scrollTo(0,document.body.scrollHeight);");
-        }
+    public void scrollToBottomOfPage() {
+        ((JavascriptExecutor) driver).executeScript("window.scrollTo(0,document.body.scrollHeight);");
+    }
 
-        public int getSizeDropDownList (By locator) {
+    public int getSizeDropDownList(By locator) {
         try {
             WebElement element = driver.findElement(locator);
-            ((JavascriptExecutor) driver).executeScript ("arguments [0].scrollIntoView(true);", element);
-            Select select = new Select (driver.findElement(locator));
+            ((JavascriptExecutor) driver).executeScript("arguments [0].scrollIntoView(true);", element);
+            Select select = new Select(driver.findElement(locator));
             return select.getOptions().size();
         } catch (NoSuchElementException e) {
             System.out.println("getSizeDropDownList error");
         }
         return 0;
-        }
-
     }
+
+    public void clickValueOfLists(By locator, String text) {
+        List<WebElement> elements = driver.findElements(locator);
+        for (int i = 0; i < elements.size(); i++) {
+            WebElement elementOfList = elements.get(i);
+            String value = elementOfList.getText();
+            if (value.contains(text)) {
+                elementOfList.click();
+
+            }
+
+        }
+    }
+
+    public static String generateNewNumber(String name, int length){
+        return name + RandomStringUtils.random(length, "172984757");
+    }
+
+    public String getAnyTitle(){
+       String title = driver.findElement(Locators.H1_TITLE).getText();
+       return title;
+    }
+}

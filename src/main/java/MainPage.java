@@ -1,6 +1,7 @@
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import java.util.concurrent.TimeUnit;
 
 public class MainPage extends BaseActions{
 
@@ -12,38 +13,44 @@ public class MainPage extends BaseActions{
         driver.findElement(Locators.BUTTON_REGISTRATION).click();
       }
 
-         public void completeRegistration(){
-
-          driver.findElement(Locators.TEXT_FIELD_EMAIL).sendKeys(Data.email);
-          driver.findElement(Locators.TEXT_FIELD_PASSWORD).sendKeys(Data.password);
+         public void completeFirstPartOfRegistration(String email,String password){
+          driver.manage().timeouts().implicitlyWait(3,TimeUnit.SECONDS);
+          wait.until(ExpectedConditions.visibilityOf(driver.findElement(Locators.TEXT_FIELD_EMAIL)));
+          driver.findElement(Locators.TEXT_FIELD_EMAIL).sendKeys(email);
+          wait.until(ExpectedConditions.visibilityOf(driver.findElement(Locators.TEXT_FIELD_PASSWORD)));
+          driver.findElement(Locators.TEXT_FIELD_PASSWORD).sendKeys(password);
+          wait.until(ExpectedConditions.elementToBeClickable(Locators.BUTTON_NEXT));
           driver.findElement(Locators.BUTTON_NEXT).click();
-          driver.findElement(Locators.TEXT_FIELD_NICKNAME).sendKeys(Data.nickname);
-          driver.findElement(Locators.TEXT_FIELD_PHONE).sendKeys(Data.phone);
-          driver.findElement(Locators.REGISTRATION_DAY_SELECT_BY_ID).click();
-          driver.findElement(Locators.REGISTRATION_DAY_SELECT_BY_VALUE).click();
 
       }
 
-      public WebElement getElementIframe(){
-        WebElement element = driver.findElement(Locators.IFRAME_YOUTUBE_VIDEO);
-        return element;
+       public void completeSecondPartOfRegistration(String nickname,String phone ,String month,
+                                                     String day, String year, String city,String location){
+        driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
+        driver.findElement(Locators.TEXT_FIELD_NICKNAME).sendKeys(nickname);
 
+        driver.findElement (Locators.LIST_DAYS).click();
+        clickValueOfLists(Locators.LIST_VALUE_DAY,day);
+
+        driver.findElement (Locators.LIST_MONTHS).click();
+        clickValueOfLists (Locators.LIST_VALUE_MONTH, month);
+
+        driver.findElement (Locators.LIST_YEARS).click();
+        clickValueOfLists (Locators.LIST_VALUE_YEAR, year);
+
+        driver.findElement(Locators.TEXT_FIELD_PHONE).sendKeys(phone);
+        driver.findElement(Locators.CHECKBOX_CONFIRMATION).click();
+
+        driver.findElement(Locators.AUTOFILLING_FORM_LOCATION).clear();
+        driver.findElement(Locators.AUTOFILLING_FORM_LOCATION).sendKeys(city);
+        clickValueOfLists(Locators.LIST_VALUE_LOCATION,location);
     }
 
-    public void clickIframeYoutubeVideo(){
-        driver.findElement(Locators.BUTTON_YOUTUBE_VIDEO).click();
-    }
+public void clickTabBlog() {
+   driver.findElement(Locators.LINK_BLOG).click();
+}
 
-    public void transferToIframe(WebElement ele){
-        driver.switchTo().frame(ele);
-    }
 
-    public void activateYoutubeVideo(WebElement element){
-        getElementIframe();
-        transferToIframe(element);
-        clickIframeYoutubeVideo();
-
-    }
 }
 
 

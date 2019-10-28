@@ -2,11 +2,10 @@
         <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="TestSuite" parallel="none" >
 
-    <test name="IETestCases">
+<test name="IETestCases">
         <parameter name="browser" value="ie"/>
         <classes>
             <class name ="RegistrationTests"/>
-            <class name ="SearchTests"/>
         </classes>
     </test>
 
@@ -15,29 +14,18 @@
         <parameter name="browser" value="firefox"/>
         <classes>
             <class name ="RegistrationTests"/>
-            <class name ="SearchTests"/>
         </classes>
     </test>
 
 
-    <test name="ChromeTestCases">
+    <test name="Chrome Test Cases 2">
         <parameter name="browser" value="chrome"/>
 
-        <groups>
-            <run>
-                  <exclude name="ie" />
-                  <include name="admin" />
-                  <include name="user" />
-            </run>
-        </groups>
         <classes>
-            <class name ="SearchTests">
-            <methods>
-                <include name=".*TestCase02.*"/>
-                <include name=".*TestCase01.*"/>
-                <exclude name=".*TestCase03.*"/>
-            </methods>
+            <class name ="RegistrationTests">
+
             </class>
         </classes>
     </test>
+
 </suite>

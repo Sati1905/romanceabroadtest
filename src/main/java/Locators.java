@@ -2,6 +2,8 @@ import org.openqa.selenium.By;
 
 public class Locators {
 
+    public static final By H1_TITLE = By.xpath("//h1");
+
     //Media Page
     public static final By LINK_MEDIA = By.cssSelector("a[href='https://romanceabroad.com/media/index']");
 
@@ -12,7 +14,15 @@ public class Locators {
     public static final By TEXT_FIELD_PASSWORD = By.cssSelector("input#password");
     public static final By TEXT_FIELD_NICKNAME = By.cssSelector("#nickname");
     public static final By TEXT_FIELD_PHONE = By.cssSelector("input[name='data[phone]']");
-    public static final By REGISTRATION_DAY_SELECT_BY_ID = By.cssSelector("#daySelect");
+    public static final By LIST_DAYS = By.cssSelector("#daySelect");
+    public static final By LIST_VALUE_DAY = By.xpath("//li[@data-handler='selectDay']");
+    public static final By LIST_MONTHS = By.cssSelector("#monthSelect");
+    public static final By LIST_VALUE_MONTH = By.xpath("//li[@data-handler='selectMonth']");
+    public static final By LIST_YEARS = By.cssSelector("#yearSelect");
+    public static final By LIST_VALUE_YEAR = By.xpath("//li[@data-handler='selectYear']");
+    public static final By CHECKBOX_CONFIRMATION= By.cssSelector("input#confirmation");
+    public static final By LIST_VALUE_LOCATION = By.xpath("//div[@class='dropdown dropdown_location']//ul//li");
+    public static final By AUTOFILLING_FORM_LOCATION = By.xpath ("//input[@name='region_name']");
     public static final By REGISTRATION_DAY_SELECT_BY_VALUE = By.xpath("//li[@data-handler='selectDay'][@data-value='2']");
 
     //Search page
@@ -25,9 +35,6 @@ public class Locators {
     //Click button
     public static final By LINK_GIFTS = By.cssSelector("a[href='https://romanceabroad.com/store/category-sweets']");
     public static final By BUTTON_SEARCH_GIFTS = By.xpath("//button[@id='search_friend']");
-
-    //Blog Page
-    public static final By LINK_BLOG = By.xpath("//a[@href='https://romanceabroad.com/content/view/blog']");
 
     //TourToUkraine Page
     public static final By LINK_TOUR_TO_UKRAINE = By.xpath("//a[@href='https://romanceabroad.com/store/sweets/20-tour_to_ukraine']");
@@ -48,11 +55,14 @@ public class Locators {
     public static final By GALLERY_ALBUMS = By.xpath ("//a[@href='https://romanceabroad.com/media/albums'][@class='b-tabs__text']");
     public static final By HELP = By.xpath ("//div[@class='footer-menu-title-block'][@id='footer-menu-title-0']");
 
-
     // Create 10 xpaths with 2 parents
     public static final By HOW_IT_WORKS_SHIPPING_TERMS = By.xpath("//li[5]/div/a/div/div");
     public static final By FIND_PEOPLE_SEARCH_BUTTON = By.xpath ("//div[2]/div/form/button");
     public static final By MEDIA_ADD_PHOTO = By.xpath ("//div[2]/div/button[@data-media ='add_photo']");
+
+    //Blog Page
+    public static final By LINK_BLOG = By.xpath("//a[@href='https://romanceabroad.com/content/view/how-it-works']");
+    public static final By LINKS_OF_ARTICLES = By.xpath("//ul[@class='nav nav-pills nav-stacked content-pages-tree']//li");
 
 
 }

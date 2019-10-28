@@ -23,6 +23,8 @@ public class BaseUI {
     MediaPage mediaPage;
     SoftAssert softAssert = new SoftAssert();
 
+
+
     @BeforeMethod (groups = {"user", "admin", "ie"}, alwaysRun = true)
     @Parameters("browser")
     public void setup(@Optional("chrome") String browser, Method method) {
