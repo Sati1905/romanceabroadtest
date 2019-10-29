@@ -3,26 +3,29 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import java.util.concurrent.TimeUnit;
 
-public class MainPage extends BaseActions{
+public class MainPage extends BaseActions {
 
-    public MainPage(WebDriver driver, WebDriverWait wait){
+    public MainPage(WebDriver driver, WebDriverWait wait) {
         super(driver, wait);
     }
 
-        public void clickJoinButton(){
+    public void clickJoinButton() {
         driver.findElement(Locators.BUTTON_REGISTRATION).click();
-      }
+    }
 
-         public void completeFirstPartOfRegistration(String email,String password){
-          driver.manage().timeouts().implicitlyWait(3,TimeUnit.SECONDS);
-          wait.until(ExpectedConditions.visibilityOf(driver.findElement(Locators.TEXT_FIELD_EMAIL)));
-          driver.findElement(Locators.TEXT_FIELD_EMAIL).sendKeys(email);
-          wait.until(ExpectedConditions.visibilityOf(driver.findElement(Locators.TEXT_FIELD_PASSWORD)));
-          driver.findElement(Locators.TEXT_FIELD_PASSWORD).sendKeys(password);
-          wait.until(ExpectedConditions.elementToBeClickable(Locators.BUTTON_NEXT));
-          driver.findElement(Locators.BUTTON_NEXT).click();
+    public void completeFirstPartOfRegistration(String email, String password) {
+        driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
+        wait.until(ExpectedConditions.visibilityOf(driver.findElement(Locators.TEXT_FIELD_EMAIL)));
+        driver.findElement(Locators.TEXT_FIELD_EMAIL).sendKeys(email);
+        wait.until(ExpectedConditions.visibilityOf(driver.findElement(Locators.TEXT_FIELD_PASSWORD)));
+        driver.findElement(Locators.TEXT_FIELD_PASSWORD).sendKeys(password);
+    }
 
-      }
+    public void clickNextButton(){
+        wait.until(ExpectedConditions.elementToBeClickable(Locators.BUTTON_NEXT));
+        driver.findElement(Locators.BUTTON_NEXT).click();
+    }
+
 
        public void completeSecondPartOfRegistration(String nickname,String phone ,String month,
                                                      String day, String year, String city,String location){

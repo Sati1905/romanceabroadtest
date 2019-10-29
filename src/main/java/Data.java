@@ -3,10 +3,15 @@ public class Data {
     public static final String mainUrl = "https://romanceabroad.com/";
 
     //Join for free/Registration data
-    public static final String email ="11@gmail.com";
+    public static final String email1 ="11@gmail.com";
+    public static final String email2 ="11yahoo.com";
+    public static final String email3 ="11@inbox.com";
     public static final String password ="338377377m";
-    public static final String nickname ="paul444";
+    public static final String nickname1part = "Nick";
+    public static final String nickname = MainPage.generateNewNumber(nickname1part, Data.lengthSecondPartOfNickname);
     public static final String phone ="123456789";
+    public static final int lengthSecondPartOfNickname = 5;
+
     public static final String secondRegistrationlink = "https://romanceabroad.com/users/registration/";
 
     public static final String day = "1";
