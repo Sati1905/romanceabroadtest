@@ -2,15 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a98b4a63-ef82-485c-a667-7c352fe12457" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/SearchGifts.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DataProviders.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/BaseUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/BlogTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/Conditions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/MainPageTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/MediaTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/RegistrationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SearchMonths.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/TestNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNG.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Data.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Locators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Locators.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RegistrationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RegistrationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BaseActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/BaseActions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BlogPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/BlogPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/Data.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DataProviders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/DataProviders.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Locators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/Locators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MediaPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/MediaPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RegistrationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/RegistrationPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/SearchPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TourToUkrainePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/TourToUkrainePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BaseUI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BlogTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Conditions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MainPageTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MediaTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RegistrationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SearchTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TourToUkraineTests.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,14 +80,17 @@
     <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="" />
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.romanceabroad.ui" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Satenik\project\GitHub\romanceabroadtest\romanceabroadtest" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Satenik\project\GitHub\romanceabroadtest\romanceabroadtest" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -85,34 +105,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.RegistrationTests.testRegistration2">
-    <configuration name="C:/Users/Satenik/project/GitHub/romanceabroadtest/romanceabroadtest/TestNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="romance" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/TestNG.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.SearchTests.searchDifferentResults13">
     <configuration name="RegistrationTests.testRegistration" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romance" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RegistrationTests" />
+      <option name="MAIN_CLASS_NAME" value="com.romanceabroad.ui.RegistrationTests" />
       <option name="METHOD_NAME" value="testRegistration" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RegistrationTests.testRegistration1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="romance" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RegistrationTests" />
-      <option name="METHOD_NAME" value="testRegistration1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -123,7 +121,7 @@
     <configuration name="RegistrationTests.testRegistration2" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romance" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RegistrationTests" />
+      <option name="MAIN_CLASS_NAME" value="com.romanceabroad.ui.RegistrationTests" />
       <option name="METHOD_NAME" value="testRegistration2" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -132,11 +130,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegistrationTests.testRegistration3" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SearchTests.searchDifferentResults13" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="romance" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.romanceabroad.ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.romanceabroad.ui" />
+      <option name="MAIN_CLASS_NAME" value="com.romanceabroad.ui.SearchTests" />
+      <option name="METHOD_NAME" value="searchDifferentResults13" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchTests.selectRandomDropDownListOnSearchPageTestCase01" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romance" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RegistrationTests" />
-      <option name="METHOD_NAME" value="testRegistration3" />
+      <option name="MAIN_CLASS_NAME" value="com.romanceabroad.ui.SearchTests" />
+      <option name="METHOD_NAME" value="selectRandomDropDownListOnSearchPageTestCase01" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TourToUkraineTests.testTourToUkraine" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="romance" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.romanceabroad.ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.romanceabroad.ui" />
+      <option name="MAIN_CLASS_NAME" value="com.romanceabroad.ui.TourToUkraineTests" />
+      <option name="METHOD_NAME" value="testTourToUkraine" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -147,17 +181,17 @@
     <list>
       <item itemvalue="TestNG.RegistrationTests.testRegistration" />
       <item itemvalue="TestNG.RegistrationTests.testRegistration2" />
-      <item itemvalue="TestNG.C:/Users/Satenik/project/GitHub/romanceabroadtest/romanceabroadtest/TestNG.xml" />
-      <item itemvalue="TestNG.RegistrationTests.testRegistration3" />
-      <item itemvalue="TestNG.RegistrationTests.testRegistration1" />
+      <item itemvalue="TestNG.SearchTests.selectRandomDropDownListOnSearchPageTestCase01" />
+      <item itemvalue="TestNG.TourToUkraineTests.testTourToUkraine" />
+      <item itemvalue="TestNG.SearchTests.searchDifferentResults13" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.SearchTests.searchDifferentResults13" />
+        <item itemvalue="TestNG.TourToUkraineTests.testTourToUkraine" />
+        <item itemvalue="TestNG.SearchTests.selectRandomDropDownListOnSearchPageTestCase01" />
         <item itemvalue="TestNG.RegistrationTests.testRegistration2" />
         <item itemvalue="TestNG.RegistrationTests.testRegistration" />
-        <item itemvalue="TestNG.RegistrationTests.testRegistration1" />
-        <item itemvalue="TestNG.C:/Users/Satenik/project/GitHub/romanceabroadtest/romanceabroadtest/TestNG.xml" />
-        <item itemvalue="TestNG.RegistrationTests.testRegistration3" />
       </list>
     </recent_temporary>
   </component>

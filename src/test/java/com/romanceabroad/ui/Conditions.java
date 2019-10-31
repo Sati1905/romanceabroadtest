@@ -1,3 +1,5 @@
+package com.romanceabroad.ui;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
@@ -10,8 +12,8 @@ public class Conditions extends BaseUI {
 
     @Test
     public void test1() {
-        String fruit1 = "kiwi";
-        String fruit2 = "kiwi";
+        String fruit1 = Data.fuit1Kiwi;
+        String fruit2 = Data.fuit1Kiwi;
 
         if (fruit2.contains("kiwi") || fruit1.contains("orange")) {
             System.out.println("We can find our fruit 1!");
@@ -73,9 +75,9 @@ public class Conditions extends BaseUI {
     public void test6() {
         String actualTitle;
         String actualUrlPrettyWomen;
-        String expectedUrlPrettyWomen = "https://romanceabroad.com/users/search";
-        String expectedTitleHowWeWork = "Ukrainian women for marriage";
-        String expectedTitlePrettyWomen = "Single Ukrainian women online";
+        String expectedUrlPrettyWomen = Data.expectedUrlPrettyWomen;
+        String expectedTitleHowWeWork = Data.expectedTitleHowWeWork;
+        String expectedTitlePrettyWomen = Data.expectedTitlePrettyWomen;
         String info;
 
         List<WebElement> links = driver.findElements(Locators.TAB_OF_MAIN_PAGE);
@@ -187,8 +189,8 @@ public class Conditions extends BaseUI {
 
     @Test
     public void test12(){
-        //mainPage.ajaxClick(Locators.TAB_OF_MAIN_PAGE,3);
-        //mainPage.performClick(Locators.TAB_OF_MAIN_PAGE,4);
+        //mainPage.ajaxClick(com.romanceabroad.ui.Locators.TAB_OF_MAIN_PAGE,3);
+        //mainPage.performClick(com.romanceabroad.ui.Locators.TAB_OF_MAIN_PAGE,4);
         mainPage.scrollToBottomOfPage();
     }
 

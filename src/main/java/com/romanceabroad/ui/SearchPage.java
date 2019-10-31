@@ -1,10 +1,8 @@
-import org.openqa.selenium.By;
+package com.romanceabroad.ui;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.Assert;
-import sun.management.snmp.jvmmib.JVM_MANAGEMENT_MIBOidTable;
 
 public class SearchPage extends BaseActions{
 
@@ -24,12 +22,19 @@ public class SearchPage extends BaseActions{
 
 
     //Test2
-    public void SearchGift(){
+    public void searchGift(){
         driver.findElement(Locators.LINK_GIFTS).click();
         driver.findElement(Locators.TEXT_FIELD_PRODUCT).sendKeys(Data.product);
         driver.findElement(Locators.BUTTON_SEARCH_GIFTS).click();
     }
 
+    public void clickPrettyWomen(){
+        driver.findElement(Locators.LINK_SEARCH).click();
+    }
+
+    public void clickSearchButton(){
+        driver.findElement(Locators.BUTTON_SEARCH).click();
+    }
 }
 
 

@@ -1,3 +1,5 @@
+package com.romanceabroad.ui;
+
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -20,7 +22,7 @@ public class BlogTests extends BaseUI {
         }
         currentUrl = driver.getCurrentUrl();
         System.out.println(Data.currentUrl);
-        Assert.assertEquals(currentUrl, Data.ExpectedUrlBlog);
+        Assert.assertEquals(currentUrl, Data.expectedUrlBlog);
 
     }
 

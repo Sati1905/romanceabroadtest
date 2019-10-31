@@ -1,6 +1,6 @@
-import org.openqa.selenium.By;
+package com.romanceabroad.ui;
+
 import org.testng.Assert;
-import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 public class RegistrationTests extends BaseUI{

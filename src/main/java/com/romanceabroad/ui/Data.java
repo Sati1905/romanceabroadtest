@@ -1,3 +1,5 @@
+package com.romanceabroad.ui;
+
 public class Data {
 
     public static final String mainUrl = "https://romanceabroad.com/";
@@ -24,15 +26,16 @@ public class Data {
     public static final String expectedUrlMedia = "https://romanceabroad.com/media/index";
     public static final String expectedUrlSearch = "https://romanceabroad.com/users/search";
     public static final String currentUrl = "https://romanceabroad.com/";
-    public static final String ExpectedUrlBlog = "https://romanceabroad.com/content/view/blog";
+    public static final String expectedUrlBlog = "https://romanceabroad.com/content/view/blog";
     public static final String expectedUrlTourToUkraine = "https://romanceabroad.com/store/sweets/20-tour_to_ukraine";
     public static final String expectedUrlSweets = "https://romanceabroad.com/store/category-sweets";
+    public static final String expectedUrlPrettyWomen  = "https://romanceabroad.com/users/search";
+    public static final String expectedTitleHowWeWork = "Ukrainian women for marriage";
+    public static final String expectedTitlePrettyWomen = "Single Ukrainian women online";
+    public static final String fuit1Kiwi = "kiwi";
 
-    //Search Data
+    //Search com.romanceabroad.ui.Data
     public static final String product = "sushi";
-
-    //Blog
-    public static final String expectedUrlBlog = "https://romanceabroad.com/content/view/blog";
 
     //Contact US
     public static final String reason ="help";

@@ -1,7 +1,8 @@
+package com.romanceabroad.ui;
+
 import org.apache.commons.lang3.RandomStringUtils;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.interactions.SourceType;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -52,7 +53,7 @@ public class BaseActions {
         action.moveToElement(element).perform();
 
     }
-
+// Different varieties of Ajax click
     //ajax click (doesn't work well with IE)
     public void ajaxClick(WebElement element){
         ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
@@ -62,11 +63,13 @@ public class BaseActions {
     }
 
     public void ajaxClick(By by) {
+        wait.until (ExpectedConditions.presenceOfElementLocated(by));
         wait.until(ExpectedConditions.elementToBeClickable(by));
         ajaxClick(driver.findElement(by));
     }
 
     public void ajaxClick(By by, int index) {
+        wait.until (ExpectedConditions.presenceOfElementLocated(by));
         wait.until(ExpectedConditions.elementToBeClickable(by));
         ajaxClick(driver.findElements(by).get(index));
     }
@@ -136,6 +139,7 @@ public class BaseActions {
         } catch (NoSuchElementException e) {
 
         }
+
     }
 
     public void checkLinksOnWebPage(String typeElement, String attribute) {
@@ -168,6 +172,7 @@ public class BaseActions {
         } catch (Exception e) {
             e.printStackTrace();
         }
+
 
     }
 
