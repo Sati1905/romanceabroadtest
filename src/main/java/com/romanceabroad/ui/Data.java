@@ -23,6 +23,15 @@ public class Data {
     public static final String location= "North Sydney, State of New South Wales, Australia";
 
 
+    //User profile
+    public static final String expectedTitleAllPhotos = "Ukrainian women photos";
+    public static final String expectedTitleGallery = "Gallery";
+    public static final String expectedTitlePhotoGallery = "Photo gallery";
+    public static final String expectedTitleVideoGallery = "Video gallery";
+    public static final String expectedTitleGalleryAlbums = "Gallery albums";
+
+
+
     public static final String expectedUrlMedia = "https://romanceabroad.com/media/index";
     public static final String expectedUrlSearch = "https://romanceabroad.com/users/search";
     public static final String currentUrl = "https://romanceabroad.com/";

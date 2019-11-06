@@ -1,8 +1,5 @@
 package com.romanceabroad.ui;
-
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -53,12 +50,23 @@ public class SearchTests extends BaseUI {
         searchPage.getDropDownListByText(driver.findElement(Locators.DROP_DOWN_LIST_SORT_BY), sortBy);
         searchPage.clickSearchButton();
 
-        List<WebElement> infoAboutUser = driver.findElements(Locators.INFO_ABOUT_USER);
+        List<WebElement> infoAboutUser = driver.findElements(Locators.TEXT_USER_INFO);
         for (int i = 0; i < infoAboutUser.size() ; i++) {
-            WebElement text = infoAboutUser.get(i);
-            String info = text.getText();
-            System.out.println(info);
-            infoAboutUser = driver.findElements(Locators.INFO_ABOUT_USER);
+            if(i % 2== 0) {
+                WebElement text = infoAboutUser.get(i);
+                String info = text.getText();
+                String[] splitedPhrase = info.split (", ");
+                String age = splitedPhrase [1];
+                int ageNum = Integer.parseInt(age);
+
+                if(min <= ageNum || ageNum <=max){
+                    System.out.println("This age: " + ageNum + " is correct");
+                }else{
+                    Assert.fail("Wrong age: " + ageNum);
+                }
+            }
+            mainPage.javaWaitSec(3);
+            infoAboutUser = driver.findElements(Locators.TEXT_USER_INFO);
        }
             
         }
