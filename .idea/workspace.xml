@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a98b4a63-ef82-485c-a667-7c352fe12457" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/Locators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/Locators.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/PhotosTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/PhotosTests.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -83,18 +81,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.PhotosTests.testTabs">
-    <configuration name="PhotosTests" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.C:/Users/Satenik/project/GitHub/romanceabroadtest/romanceabroadtest/TestNG.xml">
+    <configuration name="C:/Users/Satenik/project/GitHub/romanceabroadtest/romanceabroadtest/TestNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romance" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.romanceabroad.ui.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.romanceabroad.ui" />
-      <option name="MAIN_CLASS_NAME" value="com.romanceabroad.ui.PhotosTests" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/TestNG.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -155,7 +146,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TourToUkraineTests.testTourToUkraine" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SearchTests.testSearchPageTestCase12" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romance" />
       <extension name="coverage">
         <pattern>
@@ -164,8 +155,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.romanceabroad.ui" />
-      <option name="MAIN_CLASS_NAME" value="com.romanceabroad.ui.TourToUkraineTests" />
-      <option name="METHOD_NAME" value="testTourToUkraine" />
+      <option name="MAIN_CLASS_NAME" value="com.romanceabroad.ui.SearchTests" />
+      <option name="METHOD_NAME" value="testSearchPageTestCase12" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -174,19 +165,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.TourToUkraineTests.testTourToUkraine" />
       <item itemvalue="TestNG.SearchTests.searchDifferentResults13" />
       <item itemvalue="TestNG.PhotosTests.testTabs" />
-      <item itemvalue="TestNG.PhotosTests" />
       <item itemvalue="TestNG.SearchTests.selectRandomDropDownListOnSearchPageTestCase11" />
+      <item itemvalue="TestNG.SearchTests.testSearchPageTestCase12" />
+      <item itemvalue="TestNG.C:/Users/Satenik/project/GitHub/romanceabroadtest/romanceabroadtest/TestNG.xml" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/Satenik/project/GitHub/romanceabroadtest/romanceabroadtest/TestNG.xml" />
+        <item itemvalue="TestNG.SearchTests.testSearchPageTestCase12" />
         <item itemvalue="TestNG.PhotosTests.testTabs" />
         <item itemvalue="TestNG.SearchTests.searchDifferentResults13" />
         <item itemvalue="TestNG.SearchTests.selectRandomDropDownListOnSearchPageTestCase11" />
-        <item itemvalue="TestNG.PhotosTests" />
-        <item itemvalue="TestNG.TourToUkraineTests.testTourToUkraine" />
       </list>
     </recent_temporary>
   </component>
