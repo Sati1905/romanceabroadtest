@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a98b4a63-ef82-485c-a667-7c352fe12457" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/Data.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/Locators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/Locators.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/PhotosTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/PhotosTests.java" afterDir="false" />
     </list>
@@ -138,11 +137,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchTests.selectRandomDropDownListOnSearchPageTestCase01" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SearchTests.selectRandomDropDownListOnSearchPageTestCase11" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romance" />
-      <option name="PACKAGE_NAME" value="" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.romanceabroad.ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.romanceabroad.ui" />
       <option name="MAIN_CLASS_NAME" value="com.romanceabroad.ui.SearchTests" />
-      <option name="METHOD_NAME" value="selectRandomDropDownListOnSearchPageTestCase01" />
+      <option name="METHOD_NAME" value="selectRandomDropDownListOnSearchPageTestCase11" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -169,19 +174,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.SearchTests.selectRandomDropDownListOnSearchPageTestCase01" />
       <item itemvalue="TestNG.TourToUkraineTests.testTourToUkraine" />
       <item itemvalue="TestNG.SearchTests.searchDifferentResults13" />
       <item itemvalue="TestNG.PhotosTests.testTabs" />
       <item itemvalue="TestNG.PhotosTests" />
+      <item itemvalue="TestNG.SearchTests.selectRandomDropDownListOnSearchPageTestCase11" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.PhotosTests.testTabs" />
-        <item itemvalue="TestNG.PhotosTests" />
         <item itemvalue="TestNG.SearchTests.searchDifferentResults13" />
+        <item itemvalue="TestNG.SearchTests.selectRandomDropDownListOnSearchPageTestCase11" />
+        <item itemvalue="TestNG.PhotosTests" />
         <item itemvalue="TestNG.TourToUkraineTests.testTourToUkraine" />
-        <item itemvalue="TestNG.SearchTests.selectRandomDropDownListOnSearchPageTestCase01" />
       </list>
     </recent_temporary>
   </component>

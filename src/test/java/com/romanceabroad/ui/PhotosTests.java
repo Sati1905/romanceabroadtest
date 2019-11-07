@@ -13,13 +13,12 @@ public class PhotosTests extends BaseUI {
         photosPage.clickPhotosTab();
         List<WebElement> userTabs = driver.findElements(Locators.LINK_TAB_USER_PROFILE);
         actualTitle = photosPage.getAnyTitle();
-        if (actualTitle.contains(Data.expectedTitleGallery)) {
-            Assert.assertEquals(actualTitle, Data.expectedTitleAllPhotos);
+        Assert.assertEquals(actualTitle, Data.expectedTitleAllPhotos);
 
-            for (int i = 0; i < userTabs.size(); i++) {
-                userTabs.get(i).click();
-                actualTitle = photosPage.getAnyTitle();
-                if (i== 0) {
+        for (int i = 0; i < userTabs.size(); i++) {
+            userTabs.get(i).click();
+            actualTitle = photosPage.getAnyTitle();
+                if (i == 0) {
                     Assert.assertEquals(actualTitle, Data.expectedTitleGallery);
                 } else if (i == 1) {
                     Assert.assertEquals(actualTitle, Data.expectedTitlePhotoGallery);
@@ -42,5 +41,6 @@ public class PhotosTests extends BaseUI {
             }
         }
     }
-}
+
+
 
