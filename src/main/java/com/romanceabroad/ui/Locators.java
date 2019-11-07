@@ -9,6 +9,8 @@ public class Locators {
     //Photos Page
     public static final By LINK_MEDIA = By.cssSelector("a[href='https://romanceabroad.com/media/index']");
     public static final By LINK_TAB_USER_PROFILE = By.xpath("//ul[@id = 'gallery_filters']//a");
+    public static final By TEXT_MEDIA_BLOCK = By.xpath("By.xpath (\"//div[@class='g-flatty-block']");
+    public static final By MEDIA_CLICK_ALBUM = By.xpath("//span[@data-click='album']");
 
     //Registration
     public static final By BUTTON_REGISTRATION = By.xpath("//button[@id='show-registration-block']");
