@@ -12,12 +12,13 @@ public class MainPage extends BaseActions {
     }
 
     public void clickJoinButton() {
+        wait.until(ExpectedConditions.elementToBeClickable(Locators.BUTTON_REGISTRATION));
         driver.findElement(Locators.BUTTON_REGISTRATION).click();
     }
 
     public void completeFirstPartOfRegistration(String email, String password) {
         driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
-        wait.until(ExpectedConditions.visibilityOf(driver.findElement(Locators.TEXT_FIELD_EMAIL)));
+        wait.until(ExpectedConditions.elementToBeClickable(driver.findElement(Locators.TEXT_FIELD_EMAIL)));
         driver.findElement(Locators.TEXT_FIELD_EMAIL).sendKeys(email);
         wait.until(ExpectedConditions.visibilityOf(driver.findElement(Locators.TEXT_FIELD_PASSWORD)));
         driver.findElement(Locators.TEXT_FIELD_PASSWORD).sendKeys(password);

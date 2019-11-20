@@ -2,7 +2,53 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a98b4a63-ef82-485c-a667-7c352fe12457" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Test Results  11-19-2019.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/TestSuite/Chrome tests.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/TestSuite/Chrome tests.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/TestSuite/FirefoxTestCases.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/TestSuite/FirefoxTestCases.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/TestSuite/IETestCases.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/TestSuite/IETestCases.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/TestSuite/testng-failed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/bullet_point.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/collapseall.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/emailable-report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/failed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/jquery-1.7.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/junitreports/TEST-com.romanceabroad.ui.RegistrationTests.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/junitreports/TEST-com.romanceabroad.ui.RegistrationTests2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/junitreports/TEST-com.romanceabroad.ui.RegistrationTests3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/navigator-bullet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/old/TestSuite/Chrome tests.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/old/TestSuite/FirefoxTestCases.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/old/TestSuite/IETestCases.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/old/TestSuite/classes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/old/TestSuite/groups.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/old/TestSuite/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/old/TestSuite/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/old/TestSuite/methods-alphabetical.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/old/TestSuite/methods-not-run.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/old/TestSuite/methods.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/old/TestSuite/reporter-output.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/old/TestSuite/testng.xml.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/old/TestSuite/toc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/old/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/passed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/skipped.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/testng-failed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/testng-reports.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/testng-reports.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/testng-results.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/testng.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/RegistrationTests2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/RegistrationTests3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNG.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/BaseActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/BaseActions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/RegistrationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/RegistrationTests.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +93,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="C:/ZDOCGenerator_1.0/ZDOCGenerator_1.0/zeonpadpdfcomparison_1.0/zeonpadpdf_comparison_1.0/zeonpadpdf-compare.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/output" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -82,10 +128,45 @@
     </option>
   </component>
   <component name="RunManager" selected="TestNG.C:/Users/Satenik/project/GitHub/romanceabroadtest/romanceabroadtest/TestNG.xml">
+    <configuration name="romance []" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="test" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2">
+        <option name="Maven.BeforeRunTask" enabled="true" file="$PROJECT_DIR$/pom.xml" goal="test" />
+      </method>
+    </configuration>
     <configuration name="C:/Users/Satenik/project/GitHub/romanceabroadtest/romanceabroadtest/TestNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romance" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/TestNG.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="C:\Users\Satenik\project\GitHub\romanceabroadtest\romanceabroadtest\output" />
+      <option name="USE_DEFAULT_REPORTERS" value="true" />
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
@@ -165,6 +246,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Maven.romance []" />
       <item itemvalue="TestNG.SearchTests.searchDifferentResults13" />
       <item itemvalue="TestNG.PhotosTests.testTabs" />
       <item itemvalue="TestNG.SearchTests.selectRandomDropDownListOnSearchPageTestCase11" />

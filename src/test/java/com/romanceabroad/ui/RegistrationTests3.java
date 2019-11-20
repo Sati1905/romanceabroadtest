@@ -1,17 +1,9 @@
 package com.romanceabroad.ui;
 
-import com.automation.remarks.testng.VideoListener;
-import com.automation.remarks.video.annotations.Video;
 import org.testng.Assert;
-import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
-@Listeners(VideoListener.class)
-
-
-public class RegistrationTests extends BaseUI{
-
-    @Video(name="Registration test")
+public class RegistrationTests3 extends BaseUI {
     @Test(dataProvider = "Registration2", dataProviderClass = DataProviders.class)
     public void testRegistration2(String email, String nickname, boolean requirement) {
         System.out.println(email);
@@ -28,9 +20,4 @@ public class RegistrationTests extends BaseUI{
         }
 
     }
-
-
-
 }
-
-

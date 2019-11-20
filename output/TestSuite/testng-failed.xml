@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [TestSuite]" parallel="classes">
+  <test thread-count="3" name="IETestCases(failed)" parallel="classes">
+    <parameter name="browser" value="ie"/>
+    <classes>
+      <class name="com.romanceabroad.ui.RegistrationTests">
+        <methods>
+          <include name="afterActions"/>
+          <include name="testRegistration2" invocation-numbers="1"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.romanceabroad.ui.RegistrationTests -->
+    </classes>
+  </test> <!-- IETestCases(failed) -->
+  <test thread-count="3" name="FirefoxTestCases(failed)" parallel="classes">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.romanceabroad.ui.RegistrationTests">
+        <methods>
+          <include name="afterActions"/>
+          <include name="testRegistration2"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.romanceabroad.ui.RegistrationTests -->
+      <class name="com.romanceabroad.ui.RegistrationTests2">
+        <methods>
+          <include name="afterActions"/>
+          <include name="testRegistration"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.romanceabroad.ui.RegistrationTests2 -->
+      <class name="com.romanceabroad.ui.RegistrationTests3">
+        <methods>
+          <include name="testRegistration2"/>
+          <include name="afterActions"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.romanceabroad.ui.RegistrationTests3 -->
+    </classes>
+  </test> <!-- FirefoxTestCases(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->
