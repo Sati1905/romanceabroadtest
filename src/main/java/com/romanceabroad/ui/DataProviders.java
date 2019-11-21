@@ -20,10 +20,10 @@ public class DataProviders {
     @DataProvider(name = "Search")
     public static Object[][] testSearchFeature() {
         return new Object[][]{
-                {"18","80", "Default"},
-                {"18","19", "Name"},
-                {"30","40", "Views"},
-                {"60","80", "Registration date"},
+                {"18", "80", "Default"},
+                {"18", "19", "Name"},
+                {"30", "40", "Views"},
+                {"60", "80", "Registration date"},
 
         };
     }
@@ -42,4 +42,12 @@ public class DataProviders {
         return out.toArray(new Object[out.size()][]);
     }
 
+    // Sign In Negative Test
+    @DataProvider(name = "SignIn")
+    public static Object[][] testSignIn() {
+        return new Object[][]{
+                {Data.email1, Data.password, true},
+
+        };
+    }
 }

@@ -25,6 +25,7 @@ public class BaseUI {
     BlogPage blogPage;
     MediaPage mediaPage;
     PhotosPage photosPage;
+    SignInPage signInPage;
     SoftAssert softAssert = new SoftAssert();
 
 
@@ -65,6 +66,7 @@ else if (browser.equalsIgnoreCase("chrome")) {
         tourToUkrainePage = new TourToUkrainePage(driver, wait);
         mediaPage = new MediaPage(driver, wait);
         photosPage = new PhotosPage(driver, wait);
+        signInPage = new SignInPage(driver, wait);
         driver.manage().window().maximize();
         driver.get(Data.mainUrl);
     }

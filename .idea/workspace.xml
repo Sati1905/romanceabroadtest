@@ -2,53 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a98b4a63-ef82-485c-a667-7c352fe12457" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Test Results  11-19-2019.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/TestSuite/Chrome tests.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/TestSuite/Chrome tests.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/TestSuite/FirefoxTestCases.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/TestSuite/FirefoxTestCases.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/TestSuite/IETestCases.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/TestSuite/IETestCases.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/TestSuite/testng-failed.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/bullet_point.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/collapseall.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/emailable-report.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/failed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/jquery-1.7.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/junitreports/TEST-com.romanceabroad.ui.RegistrationTests.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/junitreports/TEST-com.romanceabroad.ui.RegistrationTests2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/junitreports/TEST-com.romanceabroad.ui.RegistrationTests3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/navigator-bullet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/old/TestSuite/Chrome tests.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/old/TestSuite/FirefoxTestCases.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/old/TestSuite/IETestCases.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/old/TestSuite/classes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/old/TestSuite/groups.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/old/TestSuite/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/old/TestSuite/main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/old/TestSuite/methods-alphabetical.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/old/TestSuite/methods-not-run.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/old/TestSuite/methods.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/old/TestSuite/reporter-output.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/old/TestSuite/testng.xml.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/old/TestSuite/toc.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/old/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/passed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/skipped.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/testng-failed.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/testng-reports.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/testng-reports.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/testng-results.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/testng.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/RegistrationTests2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/RegistrationTests3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/SignInPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/SignInTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNG.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/BaseActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/BaseActions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/MainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/RegistrationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/RegistrationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/Data.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/DataProviders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/DataProviders.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/Locators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/Locators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/BaseUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/BaseUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/SearchTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/SearchTests.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -158,22 +119,14 @@
     <configuration name="C:/Users/Satenik/project/GitHub/romanceabroadtest/romanceabroadtest/TestNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romance" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/TestNG.xml" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="SUITE" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="C:\Users\Satenik\project\GitHub\romanceabroadtest\romanceabroadtest\output" />
-      <option name="USE_DEFAULT_REPORTERS" value="true" />
-      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PhotosTests.testTabs" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SignInTests.test1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romance" />
       <extension name="coverage">
         <pattern>
@@ -182,8 +135,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.romanceabroad.ui" />
-      <option name="MAIN_CLASS_NAME" value="com.romanceabroad.ui.PhotosTests" />
-      <option name="METHOD_NAME" value="testTabs" />
+      <option name="MAIN_CLASS_NAME" value="com.romanceabroad.ui.SignInTests" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -191,7 +144,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchTests.searchDifferentResults13" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SignInTests.testRegistration2" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romance" />
       <extension name="coverage">
         <pattern>
@@ -200,8 +153,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.romanceabroad.ui" />
-      <option name="MAIN_CLASS_NAME" value="com.romanceabroad.ui.SearchTests" />
-      <option name="METHOD_NAME" value="searchDifferentResults13" />
+      <option name="MAIN_CLASS_NAME" value="com.romanceabroad.ui.SignInTests" />
+      <option name="METHOD_NAME" value="testRegistration2" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -209,7 +162,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchTests.selectRandomDropDownListOnSearchPageTestCase11" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SignInTests.testSignIn" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romance" />
       <extension name="coverage">
         <pattern>
@@ -218,8 +171,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.romanceabroad.ui" />
-      <option name="MAIN_CLASS_NAME" value="com.romanceabroad.ui.SearchTests" />
-      <option name="METHOD_NAME" value="selectRandomDropDownListOnSearchPageTestCase11" />
+      <option name="MAIN_CLASS_NAME" value="com.romanceabroad.ui.SignInTests" />
+      <option name="METHOD_NAME" value="testSignIn" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -227,7 +180,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchTests.testSearchPageTestCase12" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SignInTests.testSignInTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romance" />
       <extension name="coverage">
         <pattern>
@@ -236,8 +189,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.romanceabroad.ui" />
-      <option name="MAIN_CLASS_NAME" value="com.romanceabroad.ui.SearchTests" />
-      <option name="METHOD_NAME" value="testSearchPageTestCase12" />
+      <option name="MAIN_CLASS_NAME" value="com.romanceabroad.ui.SignInTests" />
+      <option name="METHOD_NAME" value="testSignInTests" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -247,19 +200,19 @@
     </configuration>
     <list>
       <item itemvalue="Maven.romance []" />
-      <item itemvalue="TestNG.SearchTests.searchDifferentResults13" />
-      <item itemvalue="TestNG.PhotosTests.testTabs" />
-      <item itemvalue="TestNG.SearchTests.selectRandomDropDownListOnSearchPageTestCase11" />
-      <item itemvalue="TestNG.SearchTests.testSearchPageTestCase12" />
+      <item itemvalue="TestNG.SignInTests.testSignIn" />
+      <item itemvalue="TestNG.SignInTests.test1" />
+      <item itemvalue="TestNG.SignInTests.testSignInTests" />
+      <item itemvalue="TestNG.SignInTests.testRegistration2" />
       <item itemvalue="TestNG.C:/Users/Satenik/project/GitHub/romanceabroadtest/romanceabroadtest/TestNG.xml" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.C:/Users/Satenik/project/GitHub/romanceabroadtest/romanceabroadtest/TestNG.xml" />
-        <item itemvalue="TestNG.SearchTests.testSearchPageTestCase12" />
-        <item itemvalue="TestNG.PhotosTests.testTabs" />
-        <item itemvalue="TestNG.SearchTests.searchDifferentResults13" />
-        <item itemvalue="TestNG.SearchTests.selectRandomDropDownListOnSearchPageTestCase11" />
+        <item itemvalue="TestNG.SignInTests.testSignIn" />
+        <item itemvalue="TestNG.SignInTests.testRegistration2" />
+        <item itemvalue="TestNG.SignInTests.testSignInTests" />
+        <item itemvalue="TestNG.SignInTests.test1" />
       </list>
     </recent_temporary>
   </component>

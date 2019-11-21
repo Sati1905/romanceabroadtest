@@ -60,7 +60,12 @@ public class Locators {
     public static final By LINK_BLOG = By.xpath("//a[@href='https://romanceabroad.com/content/view/how-it-works']");
     public static final By LINKS_OF_ARTICLES = By.xpath("//ul[@class='nav nav-pills nav-stacked content-pages-tree']//li");
 
-
+//Sign In Page
+public static final By LINK_SIGN_IN = By.xpath("//a[@href='https://romanceabroad.com/users/login_form'][@id='ajax_login_link']");
+public static final By BUTTON_LOGIN= By.xpath("//button[@type='submit']");
+public static final By ERROR_LOGIN= By.xpath("//div[@class='error alert-danger alert-warning_pop_']");
+public static final By FIELD_EMAIL = By.cssSelector("input[name='email']");
+public static final By FIELD_PASWORD = By.cssSelector("input[name='password']");
 
 
 

@@ -1,4 +1,5 @@
 package com.romanceabroad.ui;
+
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -51,27 +52,27 @@ public class SearchTests extends BaseUI {
         searchPage.clickSearchButton();
 
         List<WebElement> infoAboutUser = driver.findElements(Locators.TEXT_USER_INFO);
-        for (int i = 0; i < infoAboutUser.size() ; i++) {
-            if(i % 2== 0) {
+        for (int i = 0; i < infoAboutUser.size(); i++) {
+            if (i % 2 == 0) {
                 WebElement text = infoAboutUser.get(i);
                 String info = text.getText();
-                String[] splitedPhrase = info.split (", ");
-                String age = splitedPhrase [1];
+                String[] splitedPhrase = info.split(", ");
+                String age = splitedPhrase[1];
                 int ageNum = Integer.parseInt(age);
 
-                if(min <= ageNum || ageNum <=max){
+                if (min <= ageNum || ageNum <= max) {
                     System.out.println("This age: " + ageNum + " is correct");
-                }else{
+                } else {
                     Assert.fail("Wrong age: " + ageNum);
                 }
             }
             mainPage.javaWaitSec(3);
             infoAboutUser = driver.findElements(Locators.TEXT_USER_INFO);
-       }
-            
         }
 
+    }
 
-        }
+
+}
 
 

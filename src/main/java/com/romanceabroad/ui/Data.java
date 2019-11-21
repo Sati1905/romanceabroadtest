@@ -9,6 +9,7 @@ public class Data {
     public static final String email2 ="11yahoo.com";
     public static final String email3 ="11@inbox.com";
     public static final String password ="338377377m";
+    public static final String wrongpassword ="123wrong";
     public static final String nickname1part = "Nick";
     public static final String nickname = MainPage.generateNewNumber(nickname1part, Data.lengthSecondPartOfNickname);
     public static final String phone ="123456789";
