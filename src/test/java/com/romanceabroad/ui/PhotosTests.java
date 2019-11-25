@@ -1,6 +1,7 @@
 package com.romanceabroad.ui;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import java.util.List;
@@ -40,6 +41,17 @@ public class PhotosTests extends BaseUI {
                 userTabs = driver.findElements(Locators.LINK_TAB_USER_PROFILE);
             }
         }
+
+
+    @Test
+    public void testFooter() {
+        photosPage.clickPhotosTab();
+        photosPage.javaWaitSec(5);
+        photosPage.scrollToBottomOfPage();
+        List<WebElement> footerTabs = driver.findElements(Locators.LINK_FOOTER_TABS);
+        System.out.println("Footer Tabs");
+
+    }
     }
 
 

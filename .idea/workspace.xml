@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a98b4a63-ef82-485c-a667-7c352fe12457" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/SignInPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/SignInTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video/Registration test_recording_2019_24_11_19_50_26.avi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video/Registration test_recording_2019_24_11_19_52_30.avi" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNG.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/Data.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/DataProviders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/DataProviders.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/Locators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/Locators.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/BaseUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/BaseUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/SearchTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/SearchTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/PhotosTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/PhotosTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/SignInTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/SignInTests.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -126,7 +126,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SignInTests.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PhotosTests.testFooter" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romance" />
       <extension name="coverage">
         <pattern>
@@ -135,8 +135,26 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.romanceabroad.ui" />
-      <option name="MAIN_CLASS_NAME" value="com.romanceabroad.ui.SignInTests" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="MAIN_CLASS_NAME" value="com.romanceabroad.ui.PhotosTests" />
+      <option name="METHOD_NAME" value="testFooter" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PhotosTests.testTabs" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="romance" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.romanceabroad.ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.romanceabroad.ui" />
+      <option name="MAIN_CLASS_NAME" value="com.romanceabroad.ui.PhotosTests" />
+      <option name="METHOD_NAME" value="testTabs" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -180,39 +198,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SignInTests.testSignInTests" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="romance" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.romanceabroad.ui.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.romanceabroad.ui" />
-      <option name="MAIN_CLASS_NAME" value="com.romanceabroad.ui.SignInTests" />
-      <option name="METHOD_NAME" value="testSignInTests" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Maven.romance []" />
       <item itemvalue="TestNG.SignInTests.testSignIn" />
-      <item itemvalue="TestNG.SignInTests.test1" />
-      <item itemvalue="TestNG.SignInTests.testSignInTests" />
       <item itemvalue="TestNG.SignInTests.testRegistration2" />
       <item itemvalue="TestNG.C:/Users/Satenik/project/GitHub/romanceabroadtest/romanceabroadtest/TestNG.xml" />
+      <item itemvalue="TestNG.PhotosTests.testTabs" />
+      <item itemvalue="TestNG.PhotosTests.testFooter" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.C:/Users/Satenik/project/GitHub/romanceabroadtest/romanceabroadtest/TestNG.xml" />
+        <item itemvalue="TestNG.PhotosTests.testFooter" />
+        <item itemvalue="TestNG.PhotosTests.testTabs" />
         <item itemvalue="TestNG.SignInTests.testSignIn" />
         <item itemvalue="TestNG.SignInTests.testRegistration2" />
-        <item itemvalue="TestNG.SignInTests.testSignInTests" />
-        <item itemvalue="TestNG.SignInTests.test1" />
       </list>
     </recent_temporary>
   </component>

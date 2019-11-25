@@ -35,7 +35,6 @@ public class Data {
     public static final String textMedia = "On our website you have access to photos of all different kinds of women.";
 
 
-
     public static final String expectedUrlMedia = "https://romanceabroad.com/media/index";
     public static final String expectedUrlSearch = "https://romanceabroad.com/users/search";
     public static final String currentUrl = "https://romanceabroad.com/";
@@ -46,6 +45,10 @@ public class Data {
     public static final String expectedTitleHowWeWork = "Ukrainian women for marriage";
     public static final String expectedTitlePrettyWomen = "Single Ukrainian women online";
     public static final String fuit1Kiwi = "kiwi";
+    public static final String expectedTabHelp = "Help";
+    public static final String expectedTabAbout = "About";
+    public static final String expectedTabPrivacyPolicy = "Privacy Policy";
+
 
     //Search com.romanceabroad.ui.Data
     public static final String product = "sushi";

@@ -20,7 +20,7 @@ public class SignInTests extends BaseUI {
         driver.findElement(Locators.FIELD_PASWORD).sendKeys(Data.wrongpassword);
         driver.findElement(Locators.BUTTON_LOGIN).click();
         if (requirement) {
-            Assert.assertTrue(driver.findElement(Locators.ERROR_LOGIN).isDisplayed());
+            Assert.assertFalse(driver.findElement(Locators.ERROR_LOGIN).isDisplayed());
             System.out.println("Login is not successful!");
         } else {
             System.out.println("Login is successful!");

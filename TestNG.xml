@@ -1,6 +1,6 @@
 
         <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="TestSuite" parallel="none">
+<suite name="TestSuite" parallel="tests" thread-count="3">
 
     <test name="Chrome tests">
 
@@ -11,7 +11,6 @@
         </classes>
     </test>
 
-<!--
         <test name="IETestCases">
                 <parameter name="browser" value="ie"/>
                 <classes>
@@ -29,6 +28,6 @@
                     <class name ="com.romanceabroad.ui.RegistrationTests2"/>
                     <class name ="com.romanceabroad.ui.RegistrationTests3"/>
                 </classes>
-            </test>-->
+            </test>
 
         </suite>
