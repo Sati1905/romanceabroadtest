@@ -1,9 +1,8 @@
 package com.romanceabroad.ui;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import sun.security.util.Password;
+
 
 import java.util.concurrent.TimeUnit;
 
@@ -19,7 +18,7 @@ public class SignInTests extends BaseUI {
         wait.until(ExpectedConditions.visibilityOf(driver.findElement(Locators.FIELD_PASWORD)));
         driver.findElement(Locators.FIELD_PASWORD).sendKeys(Data.wrongpassword);
         driver.findElement(Locators.BUTTON_LOGIN).click();
-        if (requirement) {
+        if (!requirement) {
             Assert.assertFalse(driver.findElement(Locators.ERROR_LOGIN).isDisplayed());
             System.out.println("Login is not successful!");
         } else {

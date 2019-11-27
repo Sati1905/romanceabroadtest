@@ -2,13 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a98b4a63-ef82-485c-a667-7c352fe12457" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/video/Registration test_recording_2019_24_11_19_50_26.avi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/Registration test_recording_2019_24_11_19_52_30.avi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/Suite2019-11-26 21-17-59/reports.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/Suite2019-11-26 22-19-18/reports.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/Suite2019-11-26 22-25-46/fail_testRegistration.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/Suite2019-11-26 22-25-46/fail_testRegistration2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/Suite2019-11-26 22-25-46/reports.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/Suite2019-11-26 22-33-22/fail_testRegistration2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/Suite2019-11-26 22-33-22/reports.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/Reports.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video/Registration test_recording_2019_26_11_22_30_21.avi" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNG.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/Data.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/Locators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/Locators.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/PhotosTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/PhotosTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/BaseActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/BaseActions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/BaseUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/BaseUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/RegistrationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/RegistrationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/RegistrationTests2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/RegistrationTests3.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/SignInTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/SignInTests.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -126,7 +137,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PhotosTests.testFooter" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="RegistrationTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romance" />
       <extension name="coverage">
         <pattern>
@@ -135,8 +146,25 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.romanceabroad.ui" />
-      <option name="MAIN_CLASS_NAME" value="com.romanceabroad.ui.PhotosTests" />
-      <option name="METHOD_NAME" value="testFooter" />
+      <option name="MAIN_CLASS_NAME" value="com.romanceabroad.ui.RegistrationTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegistrationTests.testRegistration" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="romance" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.romanceabroad.ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.romanceabroad.ui" />
+      <option name="MAIN_CLASS_NAME" value="com.romanceabroad.ui.RegistrationTests" />
+      <option name="METHOD_NAME" value="testRegistration" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -144,7 +172,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PhotosTests.testTabs" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="RegistrationTests.testRegistration2" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romance" />
       <extension name="coverage">
         <pattern>
@@ -153,25 +181,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.romanceabroad.ui" />
-      <option name="MAIN_CLASS_NAME" value="com.romanceabroad.ui.PhotosTests" />
-      <option name="METHOD_NAME" value="testTabs" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SignInTests.testRegistration2" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="romance" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.romanceabroad.ui.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.romanceabroad.ui" />
-      <option name="MAIN_CLASS_NAME" value="com.romanceabroad.ui.SignInTests" />
+      <option name="MAIN_CLASS_NAME" value="com.romanceabroad.ui.RegistrationTests" />
       <option name="METHOD_NAME" value="testRegistration2" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -201,18 +211,18 @@
     <list>
       <item itemvalue="Maven.romance []" />
       <item itemvalue="TestNG.SignInTests.testSignIn" />
-      <item itemvalue="TestNG.SignInTests.testRegistration2" />
       <item itemvalue="TestNG.C:/Users/Satenik/project/GitHub/romanceabroadtest/romanceabroadtest/TestNG.xml" />
-      <item itemvalue="TestNG.PhotosTests.testTabs" />
-      <item itemvalue="TestNG.PhotosTests.testFooter" />
+      <item itemvalue="TestNG.RegistrationTests" />
+      <item itemvalue="TestNG.RegistrationTests.testRegistration" />
+      <item itemvalue="TestNG.RegistrationTests.testRegistration2" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.C:/Users/Satenik/project/GitHub/romanceabroadtest/romanceabroadtest/TestNG.xml" />
-        <item itemvalue="TestNG.PhotosTests.testFooter" />
-        <item itemvalue="TestNG.PhotosTests.testTabs" />
+        <item itemvalue="TestNG.RegistrationTests.testRegistration2" />
+        <item itemvalue="TestNG.RegistrationTests.testRegistration" />
+        <item itemvalue="TestNG.RegistrationTests" />
         <item itemvalue="TestNG.SignInTests.testSignIn" />
-        <item itemvalue="TestNG.SignInTests.testRegistration2" />
       </list>
     </recent_temporary>
   </component>
