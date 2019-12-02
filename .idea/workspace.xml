@@ -2,25 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a98b4a63-ef82-485c-a667-7c352fe12457" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/reports/Suite2019-11-26 21-17-59/reports.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/Suite2019-11-26 22-19-18/reports.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/Suite2019-11-26 22-25-46/fail_testRegistration.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/Suite2019-11-26 22-25-46/fail_testRegistration2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/Suite2019-11-26 22-25-46/reports.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/Suite2019-11-26 22-33-22/fail_testRegistration2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/Suite2019-11-26 22-33-22/reports.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/Reports.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/Registration test_recording_2019_26_11_22_30_21.avi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/Suite2019-11-30 23-46-39/fail_testRegistration.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/Suite2019-11-30 23-46-39/reports.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/2019-12-01-07-44/TEST-TestSuite.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/2019-12-01-07-44/TestSuite.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/2019-12-01-07-44/TestSuite/Chrome tests.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/2019-12-01-07-44/TestSuite/Chrome tests.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/2019-12-01-07-44/TestSuite/IETestCases.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/2019-12-01-07-44/TestSuite/IETestCases.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/2019-12-01-07-44/TestSuite/testng-failed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/2019-12-01-07-44/bullet_point.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/2019-12-01-07-44/collapseall.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/2019-12-01-07-44/emailable-report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/2019-12-01-07-44/failed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/2019-12-01-07-44/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/2019-12-01-07-44/jquery-1.7.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/2019-12-01-07-44/junitreports/TEST-com.romanceabroad.ui.RegistrationTests.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/2019-12-01-07-44/navigator-bullet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/2019-12-01-07-44/old/TestSuite/Chrome tests.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/2019-12-01-07-44/old/TestSuite/IETestCases.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/2019-12-01-07-44/old/TestSuite/classes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/2019-12-01-07-44/old/TestSuite/groups.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/2019-12-01-07-44/old/TestSuite/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/2019-12-01-07-44/old/TestSuite/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/2019-12-01-07-44/old/TestSuite/methods-alphabetical.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/2019-12-01-07-44/old/TestSuite/methods-not-run.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/2019-12-01-07-44/old/TestSuite/methods.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/2019-12-01-07-44/old/TestSuite/reporter-output.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/2019-12-01-07-44/old/TestSuite/testng.xml.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/2019-12-01-07-44/old/TestSuite/toc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/2019-12-01-07-44/old/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/2019-12-01-07-44/passed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/2019-12-01-07-44/skipped.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/2019-12-01-07-44/testng-failed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/2019-12-01-07-44/testng-reports.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/2019-12-01-07-44/testng-reports.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/2019-12-01-07-44/testng-results.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/2019-12-01-07-44/testng.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNG.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/BaseActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/BaseActions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/MainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/BaseUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/BaseUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/RegistrationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/RegistrationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/RegistrationTests2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/RegistrationTests3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/SignInTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/SignInTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/Locators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/Locators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/Reports.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/Reports.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -73,18 +94,18 @@
     <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.romanceabroad.ui" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Satenik\project\GitHub\romanceabroadtest\romanceabroadtest" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.romanceabroad.ui" />
       <recent name="" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Satenik\project\GitHub\romanceabroadtest\romanceabroadtest" />
     </key>
   </component>
   <component name="RunDashboard">
