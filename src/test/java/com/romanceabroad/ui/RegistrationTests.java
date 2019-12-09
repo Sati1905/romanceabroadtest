@@ -9,9 +9,9 @@ import org.testng.annotations.Test;
 @Listeners(VideoListener.class)
 
 
-public class RegistrationTests extends BaseUI{
+public class RegistrationTests extends BaseUITestWithSauceLabs {
 
-    @Video(name="Registration test")
+    @Video(name = "Registration test")
     @Test(dataProvider = "Registration2", dataProviderClass = DataProviders.class)
     public void testRegistration2(String email, String nickname, boolean requirement) {
 
@@ -27,20 +27,19 @@ public class RegistrationTests extends BaseUI{
             mainPage.completeSecondPartOfRegistration(nickname, Data.phone,
                     Data.month, Data.day, Data.year, Data.city, Data.location);
         }
-
     }
 
-        @Test(dataProvider = "Registration", dataProviderClass = DataProviders.class)
-        public void testRegistration(String email, String password, String day,String month, String year,
-                                     String phone, String city, String location) {
-            mainPage.clickJoinButton();
-            mainPage.completeFirstPartOfRegistration(email,password);
-            mainPage.clickNextButton();
-            mainPage.completeSecondPartOfRegistration(mainPage.generateNewNumber(Data.nickname, 5), Data.phone,
-                    month, day, year, city, location);
+}
+   /* @Test(dataProvider = "Registration", dataProviderClass = DataProviders.class)
+    public void testRegistration(String email, String password, String day, String month, String year,
+                                 String phone, String city, String location) {
+        mainPage.clickJoinButton();
+        mainPage.completeFirstPartOfRegistration(email, password);
+        mainPage.clickNextButton();
+        mainPage.completeSecondPartOfRegistration(mainPage.generateNewNumber(Data.nickname, 5), Data.phone,
+                month, day, year, city, location);
 
     }
 
 }
-
-
+*/

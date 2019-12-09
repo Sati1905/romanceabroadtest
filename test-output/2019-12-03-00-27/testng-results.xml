@@ -1,0 +1,902 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="3" ignored="0" total="12" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestSuite" duration-ms="348632" started-at="2019-12-03T00:28:20Z" finished-at="2019-12-03T00:34:09Z">
+    <groups>
+    </groups>
+    <test name="Chrome tests" duration-ms="121487" started-at="2019-12-03T00:28:20Z" finished-at="2019-12-03T00:30:22Z">
+      <class name="com.romanceabroad.ui.RegistrationTests">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@7ca48474]" name="setup" is-config="true" duration-ms="20102" started-at="2019-12-03T00:28:20Z" finished-at="2019-12-03T00:28:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.romanceabroad.ui.RegistrationTests.testRegistration(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testRegistration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@7ca48474]" name="testRegistration" duration-ms="6015" started-at="2019-12-03T00:28:41Z" data-provider="Registration" finished-at="2019-12-03T00:28:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[QAtester@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[p@ssw0rd]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[May]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2000]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1234567890]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Sydney]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[State of New South Wales]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistration -->
+        <test-method status="PASS" signature="afterActions(org.testng.ITestResult)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@7ca48474]" name="afterActions" is-config="true" duration-ms="1238" started-at="2019-12-03T00:28:47Z" finished-at="2019-12-03T00:28:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testRegistration status=SUCCESS method=RegistrationTests.testRegistration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@7ca48474] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterActions -->
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@7ca48474]" name="setup" is-config="true" duration-ms="10998" started-at="2019-12-03T00:28:48Z" finished-at="2019-12-03T00:28:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.romanceabroad.ui.RegistrationTests.testRegistration(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testRegistration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@7ca48474]" name="testRegistration" duration-ms="6269" started-at="2019-12-03T00:28:59Z" data-provider="Registration" finished-at="2019-12-03T00:29:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[disneyland@hotmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pass222!]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[25]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Dec]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1981]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[3456789522]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Sydney]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[State of New South Wales]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistration -->
+        <test-method status="PASS" signature="afterActions(org.testng.ITestResult)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@7ca48474]" name="afterActions" is-config="true" duration-ms="933" started-at="2019-12-03T00:29:05Z" finished-at="2019-12-03T00:29:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testRegistration status=SUCCESS method=RegistrationTests.testRegistration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@7ca48474] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterActions -->
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@7ca48474]" name="setup" is-config="true" duration-ms="12467" started-at="2019-12-03T00:29:06Z" finished-at="2019-12-03T00:29:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.romanceabroad.ui.RegistrationTests.testRegistration(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testRegistration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@7ca48474]" name="testRegistration" duration-ms="7336" started-at="2019-12-03T00:29:18Z" data-provider="Registration" finished-at="2019-12-03T00:29:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[romance@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Psw00%]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[30]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Jan]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1980]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1234567654]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Sydney]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[State of New South Wales]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistration -->
+        <test-method status="PASS" signature="afterActions(org.testng.ITestResult)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@7ca48474]" name="afterActions" is-config="true" duration-ms="884" started-at="2019-12-03T00:29:26Z" finished-at="2019-12-03T00:29:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testRegistration status=SUCCESS method=RegistrationTests.testRegistration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@7ca48474] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterActions -->
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@7ca48474]" name="setup" is-config="true" duration-ms="13342" started-at="2019-12-03T00:29:27Z" finished-at="2019-12-03T00:29:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.romanceabroad.ui.RegistrationTests.testRegistration2(java.lang.String,java.lang.String,boolean)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testRegistration2(java.lang.String, java.lang.String, boolean)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@7ca48474]" name="testRegistration2" duration-ms="6913" started-at="2019-12-03T00:29:40Z" data-provider="Registration2" finished-at="2019-12-03T00:29:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[11@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Nick51419]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistration2 -->
+        <test-method status="PASS" signature="afterActions(org.testng.ITestResult)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@7ca48474]" name="afterActions" is-config="true" duration-ms="762" started-at="2019-12-03T00:29:47Z" finished-at="2019-12-03T00:29:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testRegistration2 status=SUCCESS method=RegistrationTests.testRegistration2(java.lang.String, java.lang.String, boolean)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@7ca48474] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterActions -->
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@7ca48474]" name="setup" is-config="true" duration-ms="13203" started-at="2019-12-03T00:29:48Z" finished-at="2019-12-03T00:30:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.romanceabroad.ui.RegistrationTests.testRegistration2(java.lang.String,java.lang.String,boolean)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testRegistration2(java.lang.String, java.lang.String, boolean)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@7ca48474]" name="testRegistration2" duration-ms="815" started-at="2019-12-03T00:30:01Z" data-provider="Registration2" finished-at="2019-12-03T00:30:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[11yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Nick51419]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistration2 -->
+        <test-method status="PASS" signature="afterActions(org.testng.ITestResult)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@7ca48474]" name="afterActions" is-config="true" duration-ms="822" started-at="2019-12-03T00:30:02Z" finished-at="2019-12-03T00:30:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testRegistration2 status=SUCCESS method=RegistrationTests.testRegistration2(java.lang.String, java.lang.String, boolean)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@7ca48474] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterActions -->
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@7ca48474]" name="setup" is-config="true" duration-ms="10572" started-at="2019-12-03T00:30:03Z" finished-at="2019-12-03T00:30:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.romanceabroad.ui.RegistrationTests.testRegistration2(java.lang.String,java.lang.String,boolean)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testRegistration2(java.lang.String, java.lang.String, boolean)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@7ca48474]" name="testRegistration2" duration-ms="6535" started-at="2019-12-03T00:30:13Z" data-provider="Registration2" finished-at="2019-12-03T00:30:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[11@inbox.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Nick51419]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistration2 -->
+        <test-method status="PASS" signature="afterActions(org.testng.ITestResult)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@7ca48474]" name="afterActions" is-config="true" duration-ms="1946" started-at="2019-12-03T00:30:20Z" finished-at="2019-12-03T00:30:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testRegistration2 status=SUCCESS method=RegistrationTests.testRegistration2(java.lang.String, java.lang.String, boolean)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@7ca48474] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterActions -->
+      </class> <!-- com.romanceabroad.ui.RegistrationTests -->
+    </test> <!-- Chrome tests -->
+    <test name="IETestCases" duration-ms="227040" started-at="2019-12-03T00:30:22Z" finished-at="2019-12-03T00:34:09Z">
+      <class name="com.romanceabroad.ui.RegistrationTests">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@5d5eef3d]" name="setup" is-config="true" duration-ms="8848" started-at="2019-12-03T00:30:22Z" finished-at="2019-12-03T00:30:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ie]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.romanceabroad.ui.RegistrationTests.testRegistration(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="testRegistration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@5d5eef3d]" name="testRegistration" duration-ms="37523" started-at="2019-12-03T00:30:31Z" data-provider="Registration" finished-at="2019-12-03T00:31:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[QAtester@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[p@ssw0rd]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[May]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2000]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1234567890]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Sydney]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[State of New South Wales]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: [[InternetExplorerDriver: internet explorer on WINDOWS (2bcccf09-ed34-4ca2-b956-811f4646671a)] -> xpath: //div[@class='dropdown dropdown_location']//ul//li] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ALLEN', ip: '192.168.1.156', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:11092/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 2bcccf09-ed34-4ca2-b956-811f4646671a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[InternetExplorerDriver: internet explorer on WINDOWS (2bcccf09-ed34-4ca2-b956-811f4646671a)] -> xpath: //div[@class='dropdown dropdown_location']//ul//li] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ALLEN', ip: '192.168.1.156', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:11092/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 2bcccf09-ed34-4ca2-b956-811f4646671a
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at com.romanceabroad.ui.BaseActions.clickValueOfLists(BaseActions.java:213)
+at com.romanceabroad.ui.MainPage.completeSecondPartOfRegistration(MainPage.java:84)
+at com.romanceabroad.ui.RegistrationTests.testRegistration(RegistrationTests.java:39)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistration -->
+        <test-method status="PASS" signature="afterActions(org.testng.ITestResult)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@5d5eef3d]" name="afterActions" is-config="true" duration-ms="8953" started-at="2019-12-03T00:31:08Z" finished-at="2019-12-03T00:31:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testRegistration status=FAILURE method=RegistrationTests.testRegistration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@5d5eef3d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterActions -->
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@5d5eef3d]" name="setup" is-config="true" duration-ms="7288" started-at="2019-12-03T00:31:17Z" finished-at="2019-12-03T00:31:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ie]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.romanceabroad.ui.RegistrationTests.testRegistration(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="testRegistration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@5d5eef3d]" name="testRegistration" duration-ms="38681" started-at="2019-12-03T00:31:25Z" data-provider="Registration" finished-at="2019-12-03T00:32:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[disneyland@hotmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pass222!]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[25]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Dec]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1981]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[3456789522]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Sydney]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[State of New South Wales]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: [[InternetExplorerDriver: internet explorer on WINDOWS (7503e07f-5231-43e1-adbc-4727b430a0e0)] -> xpath: //div[@class='dropdown dropdown_location']//ul//li] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ALLEN', ip: '192.168.1.156', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:31068/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 7503e07f-5231-43e1-adbc-4727b430a0e0]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[InternetExplorerDriver: internet explorer on WINDOWS (7503e07f-5231-43e1-adbc-4727b430a0e0)] -> xpath: //div[@class='dropdown dropdown_location']//ul//li] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ALLEN', ip: '192.168.1.156', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:31068/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 7503e07f-5231-43e1-adbc-4727b430a0e0
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at com.romanceabroad.ui.BaseActions.clickValueOfLists(BaseActions.java:213)
+at com.romanceabroad.ui.MainPage.completeSecondPartOfRegistration(MainPage.java:84)
+at com.romanceabroad.ui.RegistrationTests.testRegistration(RegistrationTests.java:39)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistration -->
+        <test-method status="PASS" signature="afterActions(org.testng.ITestResult)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@5d5eef3d]" name="afterActions" is-config="true" duration-ms="8826" started-at="2019-12-03T00:32:03Z" finished-at="2019-12-03T00:32:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testRegistration status=FAILURE method=RegistrationTests.testRegistration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@5d5eef3d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterActions -->
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@5d5eef3d]" name="setup" is-config="true" duration-ms="8007" started-at="2019-12-03T00:32:12Z" finished-at="2019-12-03T00:32:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ie]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.romanceabroad.ui.RegistrationTests.testRegistration(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="testRegistration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@5d5eef3d]" name="testRegistration" duration-ms="37859" started-at="2019-12-03T00:32:20Z" data-provider="Registration" finished-at="2019-12-03T00:32:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[romance@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Psw00%]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[30]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Jan]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1980]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1234567654]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Sydney]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[State of New South Wales]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: [[InternetExplorerDriver: internet explorer on WINDOWS (3355233f-96be-4160-a88b-a19a150ea5cb)] -> xpath: //div[@class='dropdown dropdown_location']//ul//li] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ALLEN', ip: '192.168.1.156', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:31414/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 3355233f-96be-4160-a88b-a19a150ea5cb]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[InternetExplorerDriver: internet explorer on WINDOWS (3355233f-96be-4160-a88b-a19a150ea5cb)] -> xpath: //div[@class='dropdown dropdown_location']//ul//li] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ALLEN', ip: '192.168.1.156', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:31414/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 3355233f-96be-4160-a88b-a19a150ea5cb
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at com.romanceabroad.ui.BaseActions.clickValueOfLists(BaseActions.java:213)
+at com.romanceabroad.ui.MainPage.completeSecondPartOfRegistration(MainPage.java:84)
+at com.romanceabroad.ui.RegistrationTests.testRegistration(RegistrationTests.java:39)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistration -->
+        <test-method status="PASS" signature="afterActions(org.testng.ITestResult)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@5d5eef3d]" name="afterActions" is-config="true" duration-ms="8742" started-at="2019-12-03T00:32:58Z" finished-at="2019-12-03T00:33:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testRegistration status=FAILURE method=RegistrationTests.testRegistration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@5d5eef3d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterActions -->
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@5d5eef3d]" name="setup" is-config="true" duration-ms="8255" started-at="2019-12-03T00:33:07Z" finished-at="2019-12-03T00:33:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ie]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.romanceabroad.ui.RegistrationTests.testRegistration2(java.lang.String,java.lang.String,boolean)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testRegistration2(java.lang.String, java.lang.String, boolean)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@5d5eef3d]" name="testRegistration2" duration-ms="17495" started-at="2019-12-03T00:33:15Z" data-provider="Registration2" finished-at="2019-12-03T00:33:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[11@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Nick51419]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistration2 -->
+        <test-method status="PASS" signature="afterActions(org.testng.ITestResult)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@5d5eef3d]" name="afterActions" is-config="true" duration-ms="629" started-at="2019-12-03T00:33:32Z" finished-at="2019-12-03T00:33:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testRegistration2 status=SUCCESS method=RegistrationTests.testRegistration2(java.lang.String, java.lang.String, boolean)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@5d5eef3d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterActions -->
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@5d5eef3d]" name="setup" is-config="true" duration-ms="7341" started-at="2019-12-03T00:33:33Z" finished-at="2019-12-03T00:33:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ie]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.romanceabroad.ui.RegistrationTests.testRegistration2(java.lang.String,java.lang.String,boolean)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testRegistration2(java.lang.String, java.lang.String, boolean)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@5d5eef3d]" name="testRegistration2" duration-ms="2013" started-at="2019-12-03T00:33:40Z" data-provider="Registration2" finished-at="2019-12-03T00:33:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[11yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Nick51419]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistration2 -->
+        <test-method status="PASS" signature="afterActions(org.testng.ITestResult)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@5d5eef3d]" name="afterActions" is-config="true" duration-ms="591" started-at="2019-12-03T00:33:42Z" finished-at="2019-12-03T00:33:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testRegistration2 status=SUCCESS method=RegistrationTests.testRegistration2(java.lang.String, java.lang.String, boolean)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@5d5eef3d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterActions -->
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@5d5eef3d]" name="setup" is-config="true" duration-ms="7490" started-at="2019-12-03T00:33:43Z" finished-at="2019-12-03T00:33:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ie]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.romanceabroad.ui.RegistrationTests.testRegistration2(java.lang.String,java.lang.String,boolean)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testRegistration2(java.lang.String, java.lang.String, boolean)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@5d5eef3d]" name="testRegistration2" duration-ms="17574" started-at="2019-12-03T00:33:51Z" data-provider="Registration2" finished-at="2019-12-03T00:34:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[11@inbox.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Nick51419]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistration2 -->
+        <test-method status="PASS" signature="afterActions(org.testng.ITestResult)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@5d5eef3d]" name="afterActions" is-config="true" duration-ms="682" started-at="2019-12-03T00:34:08Z" finished-at="2019-12-03T00:34:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testRegistration2 status=SUCCESS method=RegistrationTests.testRegistration2(java.lang.String, java.lang.String, boolean)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@5d5eef3d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterActions -->
+      </class> <!-- com.romanceabroad.ui.RegistrationTests -->
+    </test> <!-- IETestCases -->
+  </suite> <!-- TestSuite -->
+</testng-results>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [TestSuite]" parallel="tests">
+  <test thread-count="2" verbose="0" name="Firefox test cases(failed)" parallel="tests">
+    <parameter name="browser" value="39.0"/>
+    <parameter name="version" value="Firefox"/>
+    <parameter name="platform" value="Windows 10"/>
+    <parameter name="testBox" value="sauce"/>
+    <classes>
+      <class name="com.romanceabroad.ui.RegistrationTests">
+        <methods>
+          <include name="testRegistration2"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.romanceabroad.ui.RegistrationTests -->
+    </classes>
+  </test> <!-- Firefox test cases(failed) -->
+  <test thread-count="2" verbose="0" name="Edge test cases(failed)" parallel="tests">
+    <parameter name="browser" value="16.16299"/>
+    <parameter name="version" value="MicrosoftEdge"/>
+    <parameter name="platform" value="Windows 10"/>
+    <parameter name="testBox" value="sauce"/>
+    <classes>
+      <class name="com.romanceabroad.ui.RegistrationTests">
+        <methods>
+          <include name="testRegistration2"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.romanceabroad.ui.RegistrationTests -->
+    </classes>
+  </test> <!-- Edge test cases(failed) -->
+  <test thread-count="2" verbose="0" name="IE test cases(failed)" parallel="tests">
+    <parameter name="browser" value="11.285"/>
+    <parameter name="version" value="Internet Explorer"/>
+    <parameter name="platform" value="Windows 10"/>
+    <parameter name="testBox" value="sauce"/>
+    <classes>
+      <class name="com.romanceabroad.ui.RegistrationTests">
+        <methods>
+          <include name="testRegistration2"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.romanceabroad.ui.RegistrationTests -->
+    </classes>
+  </test> <!-- IE test cases(failed) -->
+  <test thread-count="2" verbose="0" name="Safari Mac test cases(failed)" parallel="tests">
+    <parameter name="browser" value="Safari"/>
+    <parameter name="version" value="12.1"/>
+    <parameter name="platform" value="macOS 10.13"/>
+    <parameter name="testBox" value="sauce"/>
+    <classes>
+      <class name="com.romanceabroad.ui.RegistrationTests">
+        <methods>
+          <include name="testRegistration2" invocation-numbers="0"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.romanceabroad.ui.RegistrationTests -->
+    </classes>
+  </test> <!-- Safari Mac test cases(failed) -->
+  <test thread-count="2" verbose="0" name="IETestCases(failed)" parallel="tests">
+    <parameter name="browser" value="ie"/>
+    <classes>
+      <class name="com.romanceabroad.ui.RegistrationTests">
+        <methods>
+          <include name="testRegistration2"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.romanceabroad.ui.RegistrationTests -->
+    </classes>
+  </test> <!-- IETestCases(failed) -->
+  <test thread-count="2" verbose="0" name="FirefoxTestCases(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.romanceabroad.ui.RegistrationTests">
+        <methods>
+          <include name="testRegistration2"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.romanceabroad.ui.RegistrationTests -->
+    </classes>
+  </test> <!-- FirefoxTestCases(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->

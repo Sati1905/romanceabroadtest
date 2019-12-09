@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="720.794" tests="23" errors="0" skipped="18" failures="2">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Satenik\project\GitHub\romanceabroadtest\romanceabroadtest\target\test-classes;C:\Users\Satenik\project\GitHub\romanceabroadtest\romanceabroadtest\target\classes;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\aventstack\extentreports\3.1.5\extentreports-3.1.5.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\jsoup\jsoup\1.9.2\jsoup-1.9.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-lang3\3.9\commons-lang3-3.9.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\automation-remarks\video-recorder-testng\1.0\video-recorder-testng-1.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\automation-remarks\video-recorder-core\1.0\video-recorder-core-1.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\ru\yandex\qatools\allure\allure-java-annotations\1.4.23\allure-java-annotations-1.4.23.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\ru\yandex\qatools\allure\allure-model\1.4.23\allure-model-1.4.23.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\jvnet\jaxb2_commons\jaxb2-basics-runtime\0.9.3\jaxb2-basics-runtime-0.9.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\ru\yandex\qatools\properties\properties-loader\1.5\properties-loader-1.5.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-beanutils\commons-beanutils-core\1.8.3\commons-beanutils-core-1.8.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\slf4j\slf4j-api\1.7.12\slf4j-api-1.7.12.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Los_Angeles"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_211\jre\bin"/>
+    <property name="sun.java.command" value="C:\Windows\Temp\surefire7771153707751957717\surefirebooter7723365688570013140.jar C:\Windows\Temp\surefire7771153707751957717 2019-12-07T13-42-41_342-jvmRun1 surefire5544620946894100307tmp surefire_06814637010076361769tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\Satenik\project\GitHub\romanceabroadtest\romanceabroadtest\target\test-classes;C:\Users\Satenik\project\GitHub\romanceabroadtest\romanceabroadtest\target\classes;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\aventstack\extentreports\3.1.5\extentreports-3.1.5.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\jsoup\jsoup\1.9.2\jsoup-1.9.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-lang3\3.9\commons-lang3-3.9.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\automation-remarks\video-recorder-testng\1.0\video-recorder-testng-1.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\automation-remarks\video-recorder-core\1.0\video-recorder-core-1.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\ru\yandex\qatools\allure\allure-java-annotations\1.4.23\allure-java-annotations-1.4.23.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\ru\yandex\qatools\allure\allure-model\1.4.23\allure-model-1.4.23.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\jvnet\jaxb2_commons\jaxb2-basics-runtime\0.9.3\jaxb2-basics-runtime-0.9.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\ru\yandex\qatools\properties\properties-loader\1.5\properties-loader-1.5.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-beanutils\commons-beanutils-core\1.8.3\commons-beanutils-core-1.8.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\slf4j\slf4j-api\1.7.12\slf4j-api-1.7.12.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\WINDOWS\system32\config\systemprofile"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_211\jre"/>
+    <property name="basedir" value="C:\Users\Satenik\project\GitHub\romanceabroadtest\romanceabroadtest"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Windows\Temp\surefire7771153707751957717\surefirebooter7723365688570013140.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_211\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_211\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_211-b12"/>
+    <property name="user.name" value="ALLEN$"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_211\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\WINDOWS\system32\config\systemprofile\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\WINDOWS\TEMP\"/>
+    <property name="java.version" value="1.8.0_211"/>
+    <property name="user.dir" value="C:\Users\Satenik\project\GitHub\romanceabroadtest\romanceabroadtest"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_211\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven_3.6.3/bin;C:\Program Files\Java\jdk1.8.0_211/bin;C:\Program Files\Java\jdk1.8.0_211/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\Java\jdk1.8.0_211\bin;%PYTHON_HOME%;C:\Program Files\Git\cmd;C:\Program Files\WIDCOMM\Bluetooth Software\;C:\Program Files\WIDCOMM\Bluetooth Software\syswow64;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.211-b12"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_211\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="testRegistration" classname="com.romanceabroad.ui.RegistrationTests" time="8.944"/>
+  <testcase name="testRegistration" classname="com.romanceabroad.ui.RegistrationTests" time="7.371"/>
+  <testcase name="testRegistration" classname="com.romanceabroad.ui.RegistrationTests" time="7.291"/>
+  <testcase name="testRegistration" classname="com.romanceabroad.ui.RegistrationTests" time="0">
+    <skipped message="Timed out waiting for driver server to start.&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;ALLEN&apos;, ip: &apos;192.168.1.156&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;&#10;Driver info: driver.version: InternetExplorerDriver"/>
+  </testcase>
+  <testcase name="testRegistration" classname="com.romanceabroad.ui.RegistrationTests" time="0">
+    <skipped message="Timed out waiting for driver server to start.&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;ALLEN&apos;, ip: &apos;192.168.1.156&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;&#10;Driver info: driver.version: InternetExplorerDriver"/>
+    <system-err><![CDATA[Started InternetExplorerDriver server (32-bit)
+3.14.0.0
+Listening on port 35756
+Only local connections are allowed
+Started InternetExplorerDriver server (32-bit)
+3.14.0.0
+Listening on port 17137
+Only local connections are allowed
+Dec 07, 2019 1:52:59 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testRegistration" classname="com.romanceabroad.ui.RegistrationTests" time="0">
+    <skipped message="Timed out waiting for driver server to start.&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;ALLEN&apos;, ip: &apos;192.168.1.156&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;&#10;Driver info: driver.version: InternetExplorerDriver"/>
+    <system-err><![CDATA[Started InternetExplorerDriver server (32-bit)
+3.14.0.0
+Listening on port 36975
+Only local connections are allowed
+Dec 07, 2019 1:53:44 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="setup" classname="com.romanceabroad.ui.RegistrationTests" time="319.56">
+    <failure message="timeout&#10;  (Session info: chrome=78.0.3904.108)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;ALLEN&apos;, ip: &apos;192.168.1.156&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\WINDOWS\TEMP\scoped_dir8...}, goog:chromeOptions: {debuggerAddress: localhost:23597}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 03ea99fb64effb110e943c9eafdc94b9" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
+timeout
+  (Session info: chrome=78.0.3904.108)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ALLEN', ip: '192.168.1.156', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\WINDOWS\TEMP\scoped_dir8...}, goog:chromeOptions: {debuggerAddress: localhost:23597}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 03ea99fb64effb110e943c9eafdc94b9
+</failure>
+    <system-err><![CDATA[Starting ChromeDriver 78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}) on port 27963
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Dec 07, 2019 1:45:34 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1575755442.201][SEVERE]: Timed out receiving message from renderer: 298.673
+[1575755442.240][SEVERE]: Timed out receiving message from renderer: -0.069
+]]></system-err>
+  </testcase>
+  <testcase name="setup" classname="com.romanceabroad.ui.RegistrationTests" time="403.568">
+    <failure message="Timed out waiting for driver server to start.&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;ALLEN&apos;, ip: &apos;192.168.1.156&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;&#10;Driver info: driver.version: InternetExplorerDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+Timed out waiting for driver server to start.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ALLEN', ip: '192.168.1.156', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: driver.version: InternetExplorerDriver
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:17137/status] to be available after 20000 ms
+Caused by: java.util.concurrent.TimeoutException
+</failure>
+  </testcase>
+  <testcase name="testRegistration2" classname="com.romanceabroad.ui.RegistrationTests" time="0">
+    <skipped message="timeout&#10;  (Session info: chrome=78.0.3904.108)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;ALLEN&apos;, ip: &apos;192.168.1.156&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\WINDOWS\TEMP\scoped_dir8...}, goog:chromeOptions: {debuggerAddress: localhost:23597}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 03ea99fb64effb110e943c9eafdc94b9"/>
+  </testcase>
+  <testcase name="testRegistration2" classname="com.romanceabroad.ui.RegistrationTests" time="0">
+    <skipped message="timeout&#10;  (Session info: chrome=78.0.3904.108)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;ALLEN&apos;, ip: &apos;192.168.1.156&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\WINDOWS\TEMP\scoped_dir8...}, goog:chromeOptions: {debuggerAddress: localhost:23597}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 03ea99fb64effb110e943c9eafdc94b9"/>
+    <system-err><![CDATA[Starting ChromeDriver 78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}) on port 24994
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Dec 07, 2019 1:50:51 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testRegistration2" classname="com.romanceabroad.ui.RegistrationTests" time="0">
+    <skipped message="timeout&#10;  (Session info: chrome=78.0.3904.108)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;ALLEN&apos;, ip: &apos;192.168.1.156&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\WINDOWS\TEMP\scoped_dir8...}, goog:chromeOptions: {debuggerAddress: localhost:23597}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 03ea99fb64effb110e943c9eafdc94b9"/>
+    <system-err><![CDATA[Starting ChromeDriver 78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}) on port 28754
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Dec 07, 2019 1:51:16 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testRegistration2" classname="com.romanceabroad.ui.RegistrationTests" time="0">
+    <skipped message="Timed out waiting for driver server to start.&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;ALLEN&apos;, ip: &apos;192.168.1.156&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;&#10;Driver info: driver.version: InternetExplorerDriver"/>
+    <system-err><![CDATA[Started InternetExplorerDriver server (32-bit)
+3.14.0.0
+Listening on port 32923
+Only local connections are allowed
+Dec 07, 2019 1:53:56 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testRegistration2" classname="com.romanceabroad.ui.RegistrationTests" time="0">
+    <skipped message="Timed out waiting for driver server to start.&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;ALLEN&apos;, ip: &apos;192.168.1.156&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;&#10;Driver info: driver.version: InternetExplorerDriver"/>
+    <system-err><![CDATA[Started InternetExplorerDriver server (32-bit)
+3.14.0.0
+Listening on port 23119
+Only local connections are allowed
+Dec 07, 2019 1:54:09 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testRegistration2" classname="com.romanceabroad.ui.RegistrationTests" time="0">
+    <skipped message="Timed out waiting for driver server to start.&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;ALLEN&apos;, ip: &apos;192.168.1.156&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;&#10;Driver info: driver.version: InternetExplorerDriver"/>
+    <system-err><![CDATA[Started InternetExplorerDriver server (32-bit)
+3.14.0.0
+Listening on port 14378
+Only local connections are allowed
+Dec 07, 2019 1:54:28 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="afterActions" classname="com.romanceabroad.ui.RegistrationTests" time="0">
+    <skipped/>
+    <system-err><![CDATA[Video recording
+[C:\Users\Satenik\project\GitHub\romanceabroadtest\romanceabroadtest\video\Registration test_recording_2019_07_12_13_50_43.avi]
+]]></system-err>
+  </testcase>
+  <testcase name="afterActions" classname="com.romanceabroad.ui.RegistrationTests" time="0">
+    <skipped/>
+    <system-err><![CDATA[Video recording
+[C:\Users\Satenik\project\GitHub\romanceabroadtest\romanceabroadtest\video\Registration test_recording_2019_07_12_13_51_11.avi]
+]]></system-err>
+  </testcase>
+  <testcase name="afterActions" classname="com.romanceabroad.ui.RegistrationTests" time="0">
+    <skipped/>
+    <system-err><![CDATA[Video recording
+[C:\Users\Satenik\project\GitHub\romanceabroadtest\romanceabroadtest\video\Registration test_recording_2019_07_12_13_51_44.avi]
+]]></system-err>
+  </testcase>
+  <testcase name="afterActions" classname="com.romanceabroad.ui.RegistrationTests" time="0">
+    <skipped/>
+    <system-err><![CDATA[Video recording
+[C:\Users\Satenik\project\GitHub\romanceabroadtest\romanceabroadtest\video\Registration test_recording_2019_07_12_13_51_44.avi]
+]]></system-err>
+  </testcase>
+  <testcase name="afterActions" classname="com.romanceabroad.ui.RegistrationTests" time="0">
+    <skipped/>
+    <system-err><![CDATA[Video recording
+[C:\Users\Satenik\project\GitHub\romanceabroadtest\romanceabroadtest\video\Registration test_recording_2019_07_12_13_51_44.avi]
+]]></system-err>
+  </testcase>
+  <testcase name="afterActions" classname="com.romanceabroad.ui.RegistrationTests" time="0">
+    <skipped/>
+    <system-err><![CDATA[Video recording
+[C:\Users\Satenik\project\GitHub\romanceabroadtest\romanceabroadtest\video\Registration test_recording_2019_07_12_13_51_44.avi]
+]]></system-err>
+  </testcase>
+  <testcase name="afterActions" classname="com.romanceabroad.ui.RegistrationTests" time="0">
+    <skipped/>
+    <system-err><![CDATA[Video recording
+[C:\Users\Satenik\project\GitHub\romanceabroadtest\romanceabroadtest\video\Registration test_recording_2019_07_12_13_54_06.avi]
+]]></system-err>
+  </testcase>
+  <testcase name="afterActions" classname="com.romanceabroad.ui.RegistrationTests" time="0">
+    <skipped/>
+    <system-err><![CDATA[Video recording
+[C:\Users\Satenik\project\GitHub\romanceabroadtest\romanceabroadtest\video\Registration test_recording_2019_07_12_13_54_21.avi]
+]]></system-err>
+  </testcase>
+  <testcase name="afterActions" classname="com.romanceabroad.ui.RegistrationTests" time="0">
+    <skipped/>
+    <system-err><![CDATA[Video recording
+[C:\Users\Satenik\project\GitHub\romanceabroadtest\romanceabroadtest\video\Registration test_recording_2019_07_12_13_54_40.avi]
+]]></system-err>
+  </testcase>
+</testsuite>

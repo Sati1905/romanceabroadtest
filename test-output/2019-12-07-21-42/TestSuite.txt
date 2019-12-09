@@ -1,0 +1,23 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 23, Failures: 2, Errors: 0, Skipped: 18, Time elapsed: 720.794 s <<< FAILURE! - in TestSuite
+setup(com.romanceabroad.ui.RegistrationTests)  Time elapsed: 319.56 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+timeout
+  (Session info: chrome=78.0.3904.108)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ALLEN', ip: '192.168.1.156', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\WINDOWS\TEMP\scoped_dir8...}, goog:chromeOptions: {debuggerAddress: localhost:23597}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 03ea99fb64effb110e943c9eafdc94b9
+
+setup(com.romanceabroad.ui.RegistrationTests)  Time elapsed: 403.568 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Timed out waiting for driver server to start.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ALLEN', ip: '192.168.1.156', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: driver.version: InternetExplorerDriver
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:17137/status] to be available after 20000 ms
+Caused by: java.util.concurrent.TimeoutException
+
