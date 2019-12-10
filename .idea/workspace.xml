@@ -2,263 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a98b4a63-ef82-485c-a667-7c352fe12457" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/reports/Suite/fail_testRegistration2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/Suite/reports.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/BaseUITestWithSauceLabs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-03-00-27/TEST-TestSuite.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-03-00-27/TestSuite.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-03-00-27/TestSuite/Chrome tests.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-03-00-27/TestSuite/Chrome tests.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-03-00-27/TestSuite/IETestCases.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-03-00-27/TestSuite/IETestCases.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-03-00-27/TestSuite/testng-failed.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-03-00-27/bullet_point.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-03-00-27/collapseall.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-03-00-27/emailable-report.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-03-00-27/failed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-03-00-27/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-03-00-27/jquery-1.7.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-03-00-27/junitreports/TEST-com.romanceabroad.ui.RegistrationTests.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-03-00-27/navigator-bullet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-03-00-27/old/TestSuite/Chrome tests.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-03-00-27/old/TestSuite/IETestCases.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-03-00-27/old/TestSuite/classes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-03-00-27/old/TestSuite/groups.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-03-00-27/old/TestSuite/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-03-00-27/old/TestSuite/main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-03-00-27/old/TestSuite/methods-alphabetical.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-03-00-27/old/TestSuite/methods-not-run.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-03-00-27/old/TestSuite/methods.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-03-00-27/old/TestSuite/reporter-output.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-03-00-27/old/TestSuite/testng.xml.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-03-00-27/old/TestSuite/toc.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-03-00-27/old/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-03-00-27/passed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-03-00-27/skipped.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-03-00-27/testng-failed.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-03-00-27/testng-reports.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-03-00-27/testng-reports.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-03-00-27/testng-results.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-03-00-27/testng.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-03-01-25/TEST-TestSuite.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-03-01-25/TestSuite.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-03-01-25/TestSuite/Chrome tests.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-03-01-25/TestSuite/Chrome tests.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-03-01-25/TestSuite/IETestCases.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-03-01-25/TestSuite/IETestCases.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-03-01-25/TestSuite/testng-failed.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-03-01-25/bullet_point.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-03-01-25/collapseall.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-03-01-25/emailable-report.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-03-01-25/failed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-03-01-25/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-03-01-25/jquery-1.7.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-03-01-25/junitreports/TEST-com.romanceabroad.ui.RegistrationTests.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-03-01-25/navigator-bullet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-03-01-25/old/TestSuite/Chrome tests.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-03-01-25/old/TestSuite/IETestCases.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-03-01-25/old/TestSuite/classes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-03-01-25/old/TestSuite/groups.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-03-01-25/old/TestSuite/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-03-01-25/old/TestSuite/main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-03-01-25/old/TestSuite/methods-alphabetical.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-03-01-25/old/TestSuite/methods-not-run.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-03-01-25/old/TestSuite/methods.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-03-01-25/old/TestSuite/reporter-output.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-03-01-25/old/TestSuite/testng.xml.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-03-01-25/old/TestSuite/toc.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-03-01-25/old/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-03-01-25/passed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-03-01-25/skipped.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-03-01-25/testng-failed.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-03-01-25/testng-reports.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-03-01-25/testng-reports.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-03-01-25/testng-results.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-03-01-25/testng.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-03-05-09/2019-12-02T21-09-28_118-jvmRun1.dump" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-03-05-09/TEST-TestSuite.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-03-05-09/TestSuite.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-03-05-09/TestSuite/Chrome tests.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-03-05-09/TestSuite/Chrome tests.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-03-05-09/TestSuite/IETestCases.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-03-05-09/TestSuite/IETestCases.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-03-05-09/TestSuite/testng-failed.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-03-05-09/bullet_point.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-03-05-09/collapseall.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-03-05-09/emailable-report.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-03-05-09/failed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-03-05-09/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-03-05-09/jquery-1.7.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-03-05-09/junitreports/TEST-com.romanceabroad.ui.RegistrationTests.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-03-05-09/navigator-bullet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-03-05-09/old/TestSuite/Chrome tests.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-03-05-09/old/TestSuite/IETestCases.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-03-05-09/old/TestSuite/classes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-03-05-09/old/TestSuite/groups.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-03-05-09/old/TestSuite/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-03-05-09/old/TestSuite/main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-03-05-09/old/TestSuite/methods-alphabetical.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-03-05-09/old/TestSuite/methods-not-run.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-03-05-09/old/TestSuite/methods.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-03-05-09/old/TestSuite/reporter-output.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-03-05-09/old/TestSuite/testng.xml.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-03-05-09/old/TestSuite/toc.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-03-05-09/old/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-03-05-09/passed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-03-05-09/skipped.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-03-05-09/testng-failed.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-03-05-09/testng-reports.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-03-05-09/testng-reports.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-03-05-09/testng-results.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-03-05-09/testng.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-07-21-42/TEST-TestSuite.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-07-21-42/TestSuite.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-07-21-42/TestSuite/Chrome tests.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-07-21-42/TestSuite/Chrome tests.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-07-21-42/TestSuite/IETestCases.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-07-21-42/TestSuite/IETestCases.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-07-21-42/TestSuite/testng-failed.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-07-21-42/bullet_point.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-07-21-42/collapseall.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-07-21-42/emailable-report.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-07-21-42/failed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-07-21-42/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-07-21-42/jquery-1.7.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-07-21-42/junitreports/TEST-com.romanceabroad.ui.RegistrationTests.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-07-21-42/navigator-bullet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-07-21-42/old/TestSuite/Chrome tests.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-07-21-42/old/TestSuite/IETestCases.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-07-21-42/old/TestSuite/classes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-07-21-42/old/TestSuite/groups.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-07-21-42/old/TestSuite/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-07-21-42/old/TestSuite/main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-07-21-42/old/TestSuite/methods-alphabetical.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-07-21-42/old/TestSuite/methods-not-run.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-07-21-42/old/TestSuite/methods.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-07-21-42/old/TestSuite/reporter-output.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-07-21-42/old/TestSuite/testng.xml.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-07-21-42/old/TestSuite/toc.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-07-21-42/old/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-07-21-42/passed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-07-21-42/skipped.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-07-21-42/testng-failed.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-07-21-42/testng-reports.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-07-21-42/testng-reports.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-07-21-42/testng-results.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-07-21-42/testng.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-07-21-57/TEST-TestSuite.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-07-21-57/TestSuite.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-07-21-57/TestSuite/Chrome tests.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-07-21-57/TestSuite/Chrome tests.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-07-21-57/bullet_point.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-07-21-57/collapseall.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-07-21-57/emailable-report.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-07-21-57/failed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-07-21-57/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-07-21-57/jquery-1.7.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-07-21-57/junitreports/TEST-com.romanceabroad.ui.RegistrationTests.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-07-21-57/navigator-bullet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-07-21-57/old/TestSuite/Chrome tests.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-07-21-57/old/TestSuite/classes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-07-21-57/old/TestSuite/groups.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-07-21-57/old/TestSuite/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-07-21-57/old/TestSuite/main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-07-21-57/old/TestSuite/methods-alphabetical.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-07-21-57/old/TestSuite/methods-not-run.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-07-21-57/old/TestSuite/methods.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-07-21-57/old/TestSuite/reporter-output.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-07-21-57/old/TestSuite/testng.xml.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-07-21-57/old/TestSuite/toc.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-07-21-57/old/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-07-21-57/passed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-07-21-57/skipped.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-07-21-57/testng-reports.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-07-21-57/testng-reports.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-07-21-57/testng-results.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-07-21-57/testng.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-09-08-58/TEST-TestSuite.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-09-08-58/TestSuite.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-09-08-58/TestSuite/Chrome tests.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-09-08-58/TestSuite/Chrome tests.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-09-08-58/TestSuite/Edge test cases.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-09-08-58/TestSuite/Edge test cases.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-09-08-58/TestSuite/Firefox test cases.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-09-08-58/TestSuite/Firefox test cases.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-09-08-58/TestSuite/FirefoxTestCases.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-09-08-58/TestSuite/FirefoxTestCases.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-09-08-58/TestSuite/IE test cases.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-09-08-58/TestSuite/IE test cases.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-09-08-58/TestSuite/IETestCases.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-09-08-58/TestSuite/IETestCases.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-09-08-58/TestSuite/Safari Mac test cases.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-09-08-58/TestSuite/Safari Mac test cases.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-09-08-58/TestSuite/testng-failed.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-09-08-58/bullet_point.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-09-08-58/collapseall.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-09-08-58/emailable-report.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-09-08-58/failed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-09-08-58/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-09-08-58/jquery-1.7.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-09-08-58/junitreports/TEST-com.romanceabroad.ui.RegistrationTests.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-09-08-58/navigator-bullet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-09-08-58/old/TestSuite/Chrome tests.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-09-08-58/old/TestSuite/Edge test cases.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-09-08-58/old/TestSuite/Firefox test cases.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-09-08-58/old/TestSuite/FirefoxTestCases.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-09-08-58/old/TestSuite/IE test cases.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-09-08-58/old/TestSuite/IETestCases.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-09-08-58/old/TestSuite/Safari Mac test cases.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-09-08-58/old/TestSuite/classes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-09-08-58/old/TestSuite/groups.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-09-08-58/old/TestSuite/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-09-08-58/old/TestSuite/main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-09-08-58/old/TestSuite/methods-alphabetical.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-09-08-58/old/TestSuite/methods-not-run.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-09-08-58/old/TestSuite/methods.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-09-08-58/old/TestSuite/reporter-output.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-09-08-58/old/TestSuite/testng.xml.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-09-08-58/old/TestSuite/toc.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-09-08-58/old/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-09-08-58/passed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-09-08-58/skipped.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-09-08-58/testng-failed.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-09-08-58/testng-reports.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-09-08-58/testng-reports.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-09-08-58/testng-results.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/2019-12-09-08-58/testng.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/Registration test_recording_2019_07_12_13_50_43.avi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/Registration test_recording_2019_07_12_13_51_11.avi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/Registration test_recording_2019_07_12_13_51_44.avi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/Registration test_recording_2019_07_12_13_54_06.avi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/Registration test_recording_2019_07_12_13_54_21.avi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/Registration test_recording_2019_07_12_13_54_40.avi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/Registration test_recording_2019_09_12_00_05_50.avi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/Registration test_recording_2019_09_12_00_05_51.avi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/Registration test_recording_2019_09_12_00_06_01.avi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/Registration test_recording_2019_09_12_00_07_39.avi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/Registration test_recording_2019_09_12_00_07_40.avi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/Registration test_recording_2019_09_12_00_07_49.avi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/Registration test_recording_2019_09_12_00_09_52.avi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/Registration test_recording_2019_09_12_00_10_03.avi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/Registration test_recording_2019_09_12_00_49_48.avi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/Registration test_recording_2019_09_12_00_52_01.avi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/Registration test_recording_2019_09_12_00_52_02.avi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/Registration test_recording_2019_09_12_00_58_37.avi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/Registration test_recording_2019_09_12_00_58_38.avi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/Registration test_recording_2019_09_12_00_58_48.avi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/Registration test_recording_2019_09_12_00_58_51.avi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestNGMobile.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video/Registration test_recording_2019_09_12_23_41_58.avi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video/Registration test_recording_2019_09_12_23_42_36.avi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video/Registration test_recording_2019_09_12_23_43_11.avi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video/Registration test_recording_2019_09_12_23_45_26.avi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video/Registration test_recording_2019_09_12_23_46_30.avi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video/Registration test_recording_2019_09_12_23_49_39.avi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video/Registration test_recording_2019_10_12_00_33_27.avi" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNG.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/Suite2019-11-26 21-17-59/reports.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/Suite2019-11-26 22-19-18/reports.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/Suite2019-11-26 22-25-46/fail_testRegistration.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/Suite2019-11-26 22-25-46/fail_testRegistration2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/Suite2019-11-26 22-25-46/reports.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/Suite2019-11-26 22-33-22/fail_testRegistration2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/Suite2019-11-26 22-33-22/reports.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/Suite2019-11-30 23-46-39/fail_testRegistration.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/Suite2019-11-30 23-46-39/reports.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/DataProviders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/DataProviders.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNGWeb.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/Suite/reports.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/Suite/reports.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/BaseUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/BaseUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/RegistrationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/RegistrationTests.java" afterDir="false" />
     </list>
@@ -339,7 +94,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/Satenik/project/GitHub/romanceabroadtest/romanceabroadtest/TestNG.xml">
+  <component name="RunManager" selected="TestNG.C:/Users/Satenik/project/GitHub/romanceabroadtest/romanceabroadtest/TestNGMobile.xml">
     <configuration name="romance []" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -365,6 +120,16 @@
       </MavenSettings>
       <method v="2">
         <option name="Maven.BeforeRunTask" enabled="true" file="$PROJECT_DIR$/pom.xml" goal="test" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/Satenik/project/GitHub/romanceabroadtest/romanceabroadtest/TestNGMobile.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="romance" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/TestNGMobile.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="C:/Users/Satenik/project/GitHub/romanceabroadtest/romanceabroadtest/TestNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
@@ -430,39 +195,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SignInTests.testSignIn" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="romance" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.romanceabroad.ui.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.romanceabroad.ui" />
-      <option name="MAIN_CLASS_NAME" value="com.romanceabroad.ui.SignInTests" />
-      <option name="METHOD_NAME" value="testSignIn" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Maven.romance []" />
-      <item itemvalue="TestNG.SignInTests.testSignIn" />
       <item itemvalue="TestNG.C:/Users/Satenik/project/GitHub/romanceabroadtest/romanceabroadtest/TestNG.xml" />
       <item itemvalue="TestNG.RegistrationTests" />
       <item itemvalue="TestNG.RegistrationTests.testRegistration" />
       <item itemvalue="TestNG.RegistrationTests.testRegistration2" />
+      <item itemvalue="TestNG.C:/Users/Satenik/project/GitHub/romanceabroadtest/romanceabroadtest/TestNGMobile.xml" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/Satenik/project/GitHub/romanceabroadtest/romanceabroadtest/TestNGMobile.xml" />
         <item itemvalue="TestNG.C:/Users/Satenik/project/GitHub/romanceabroadtest/romanceabroadtest/TestNG.xml" />
         <item itemvalue="TestNG.RegistrationTests.testRegistration2" />
         <item itemvalue="TestNG.RegistrationTests.testRegistration" />
         <item itemvalue="TestNG.RegistrationTests" />
-        <item itemvalue="TestNG.SignInTests.testSignIn" />
       </list>
     </recent_temporary>
   </component>
