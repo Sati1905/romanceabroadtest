@@ -1,7 +1,9 @@
 package com.romanceabroad.ui;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
+import org.testng.ITestContext;
 import org.testng.annotations.Test;
 
 import java.util.List;
@@ -29,11 +31,12 @@ public class SearchTests extends BaseUI {
 
     @Test(priority = 1, enabled = testCase11, groups = {"user", "admin"})
     public void selectRandomDropDownListOnSearchPageTestCase11() {
+        mainPage.clickMobileMenu(valueOfBox);
         searchPage.clickPrettyWomen();
-
         int sizeOfDropDownListSortBy = searchPage.getSizeDropDownList(Locators.DROP_DOWN_MAX_AGE);
         System.out.println(sizeOfDropDownListSortBy);
-        for (int i = 0; i < sizeOfDropDownListSortBy; i++) {
+        searchPage.clickSearchParameters(valueOfBox);
+        for (int i = 0; i < 2; i++) {
             searchPage.selectItemDropDownRandomOption(Locators.DROP_DOWN_MAX_AGE, "Sort by");
             mainPage.javaWaitSec(3);
         }

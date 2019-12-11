@@ -6,6 +6,9 @@ public class Locators {
 
     public static final By H1_TITLE = By.xpath("//h1");
 
+    //Main Page
+    public static final By MOBILE_MENU = By.xpath("//span[@class='navbar-toggler-icon']");
+
     //Photos Page
     public static final By LINK_MEDIA = By.cssSelector("a[href='https://romanceabroad.com/media/index']");
     public static final By LINK_TAB_USER_PROFILE = By.xpath("//ul[@id = 'gallery_filters']//a");
@@ -41,6 +44,7 @@ public class Locators {
     public static final By DROP_DOWN_MIN_AGE = By.cssSelector("select#age_min");
     public static final By BUTTON_SEARCH = By.cssSelector("#main_search_button_user_advanced");
     public static final By TEXT_USER_INFO = By.xpath("//div[@class='text-overflow']");
+    public static final By MOBILE_LINK_SEARCH_PARAMETERS = By.xpath("//div[@class='search-param-button mb10']//a");
 
     //Click button
     public static final By LINK_GIFTS = By.cssSelector("a[href='https://romanceabroad.com/store/category-sweets']");

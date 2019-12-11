@@ -3,6 +3,7 @@
 
     <test name="Chrome tests">
 
+        <parameter name="testEnv" value="prod"/>
         <parameter name="testBox" value="web"/>
         <parameter name="version" value="59.0"/>
         <parameter name="browser" value="chrome"/>

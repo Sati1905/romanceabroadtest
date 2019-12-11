@@ -3,7 +3,7 @@
 <suite name="Mobile Test Suite" parallel="none">
 
     <test name="Galaxy S5 test cases">
-
+        <parameter name="testEnv" value="qa"/>
         <parameter name="testBox" value="mobile"/>
         <parameter name="browser" value="chrome"/>
         <parameter name="deviceName" value="Galaxy S5"/>
@@ -12,7 +12,7 @@
 
         <classes>
 
-            <class name ="com.romanceabroad.ui.RegistrationTests"/>
+            <class name ="com.romanceabroad.ui.SearchTests"/>
 
         </classes>
 
@@ -26,7 +26,7 @@
 
         <classes>
 
-            <class name ="com.romanceabroad.ui.RegistrationTests"/>
+            <class name ="com.romanceabroad.ui.SearchTests"/>
 
         </classes>
 
@@ -40,7 +40,7 @@
 
         <classes>
 
-            <class name ="com.romanceabroad.ui.RegistrationTests"/>
+            <class name ="com.romanceabroad.ui.SearchTests"/>
 
         </classes>
 
@@ -54,7 +54,7 @@
 
         <classes>
 
-            <class name ="com.romanceabroad.ui.RegistrationTests"/>
+            <class name ="com.romanceabroad.ui.SearchTests"/>
 
         </classes>
 
@@ -68,7 +68,7 @@
 
         <classes>
 
-            <class name ="com.romanceabroad.ui.RegistrationTests"/>
+            <class name ="com.romanceabroad.ui.SearchTests"/>
 
         </classes>
 

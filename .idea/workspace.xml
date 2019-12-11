@@ -2,20 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a98b4a63-ef82-485c-a667-7c352fe12457" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/TestNGMobile.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/Registration test_recording_2019_09_12_23_41_58.avi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/Registration test_recording_2019_09_12_23_42_36.avi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/Registration test_recording_2019_09_12_23_43_11.avi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/Registration test_recording_2019_09_12_23_45_26.avi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/Registration test_recording_2019_09_12_23_46_30.avi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/Registration test_recording_2019_09_12_23_49_39.avi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/Registration test_recording_2019_10_12_00_33_27.avi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reports/Suite/fail_selectRandomDropDownListOnSearchPageTestCase11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video/Registration test_recording_2019_10_12_23_19_23.avi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video/Registration test_recording_2019_10_12_23_19_24.avi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video/Registration test_recording_2019_10_12_23_41_07.avi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video/Registration test_recording_2019_11_12_00_33_45.avi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video/Registration test_recording_2019_11_12_00_36_55.avi" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNGWeb.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestNGMobile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNGMobile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestNGWeb.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNGWeb.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/Suite/fail_testRegistration2.png" beforeDir="false" afterPath="$PROJECT_DIR$/reports/Suite/fail_testRegistration2.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reports/Suite/reports.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/Suite/reports.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/Locators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/Locators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/SearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/romanceabroad/ui/SearchPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/BaseUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/BaseUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/RegistrationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/RegistrationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/SearchTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/romanceabroad/ui/SearchTests.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -132,9 +134,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C:/Users/Satenik/project/GitHub/romanceabroadtest/romanceabroadtest/TestNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/Users/Satenik/project/GitHub/romanceabroadtest/romanceabroadtest/TestNGWeb.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romance" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/TestNG.xml" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/TestNGWeb.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -142,17 +144,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegistrationTests" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/Users/Satenik/project/GitHub/romanceabroadtest/romanceabroadtest/TestNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="romance" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.romanceabroad.ui.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.romanceabroad.ui" />
-      <option name="MAIN_CLASS_NAME" value="com.romanceabroad.ui.RegistrationTests" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/TestNG.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -198,18 +193,18 @@
     <list>
       <item itemvalue="Maven.romance []" />
       <item itemvalue="TestNG.C:/Users/Satenik/project/GitHub/romanceabroadtest/romanceabroadtest/TestNG.xml" />
-      <item itemvalue="TestNG.RegistrationTests" />
       <item itemvalue="TestNG.RegistrationTests.testRegistration" />
       <item itemvalue="TestNG.RegistrationTests.testRegistration2" />
       <item itemvalue="TestNG.C:/Users/Satenik/project/GitHub/romanceabroadtest/romanceabroadtest/TestNGMobile.xml" />
+      <item itemvalue="TestNG.C:/Users/Satenik/project/GitHub/romanceabroadtest/romanceabroadtest/TestNGWeb.xml" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.C:/Users/Satenik/project/GitHub/romanceabroadtest/romanceabroadtest/TestNGMobile.xml" />
+        <item itemvalue="TestNG.C:/Users/Satenik/project/GitHub/romanceabroadtest/romanceabroadtest/TestNGWeb.xml" />
         <item itemvalue="TestNG.C:/Users/Satenik/project/GitHub/romanceabroadtest/romanceabroadtest/TestNG.xml" />
         <item itemvalue="TestNG.RegistrationTests.testRegistration2" />
         <item itemvalue="TestNG.RegistrationTests.testRegistration" />
-        <item itemvalue="TestNG.RegistrationTests" />
       </list>
     </recent_temporary>
   </component>

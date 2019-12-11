@@ -88,7 +88,30 @@ public void clickTabBlog() {
    driver.findElement(Locators.LINK_BLOG).click();
 }
 
+    public void clickMobileMenu(String valueOfBox){
+        if(valueOfBox.contains("mobile")){
+            driver.findElement(Locators.MOBILE_MENU).click();
+        }
+    }
+    public void clickMobileMenu() {
+        try {
+            driver.findElement(Locators.MOBILE_MENU).click();
+        } catch (Exception e) {
 
+        }
+    }
+
+    public void clickMobileMenu2(){
+        if (driver.findElement(Locators.MOBILE_MENU).isDisplayed()) {
+            driver.findElement(Locators.MOBILE_MENU).click();
+        }
+    }
+
+    public void clickMobileMenu3(){
+        if (driver.findElements(Locators.MOBILE_MENU).size() > 0){
+            driver.findElement(Locators.MOBILE_MENU).click();
+        }
+    }
 }
 
 

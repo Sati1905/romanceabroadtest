@@ -41,6 +41,8 @@ public class BaseUI {
     protected TestBox testBox;
     protected TestBrowser testBrowser;
 
+    protected String valueOfBox;
+
     protected enum TestBox {
         WEB, MOBILE, SAUCE
     }
@@ -50,12 +52,12 @@ public class BaseUI {
     }
 
     @BeforeMethod(groups = {"user", "admin", "ie"}, alwaysRun = true)
-    @Parameters({"browser", "version", "platform", "testbox", "deviceName"})
+    @Parameters({"browser", "version", "platform", "testbox", "deviceName","testEnv"})
 
     public void setup(@Optional("chrome") String browser, @Optional("web") String box,
                       @Optional("null") String platform,
-                      @Optional("null") String version,
-                      @Optional("null") String device,
+                      @Optional("null") String version, @Optional("null") String device,
+                      @Optional("qa") String env,
                       Method method, ITestContext context) throws MalformedURLException {
 
         Reports.start(method.getDeclaringClass().getName() + " : " + method.getName());
@@ -111,7 +113,7 @@ public class BaseUI {
                 switch (testBrowser) {
                     case CHROME:
                       System.out.println("Mobile Chrome");
-                      Map<String, String> mobileEmulation = new HashMap<String, String>();
+                      Map<String, String> mobileEmulation = new HashMap<>();
                       mobileEmulation.put("deviceName", "Galaxy S5");
                       ChromeOptions chromeOptions = new ChromeOptions();
                       chromeOptions.setExperimentalOption("mobileEmulation", mobileEmulation);
@@ -146,8 +148,16 @@ public class BaseUI {
         mediaPage = new MediaPage(driver, wait);
         photosPage = new PhotosPage(driver, wait);
         signInPage = new SignInPage(driver, wait);
-        driver.manage().window().maximize();
-        driver.get(Data.mainUrl);
+        //driver.manage().window().maximize();
+        if(env.contains("qa")){
+            driver.get(Data.mainUrl);
+        }else if(env.contains("uat")){
+            driver.get("hhtps://www.google.com/");
+        }else if(env.contains("prod")){
+            driver.get("https://www.yahoo.com/");
+        }
+
+        valueOfBox = box;
     }
 
     @AfterMethod
